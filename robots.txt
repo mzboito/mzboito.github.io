@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mzboito.github.io/sitemap.xml
