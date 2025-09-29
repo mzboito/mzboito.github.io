@@ -100,6 +100,9 @@ exclude:
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
+  - robots.txt
+  - assets/js/search/*.js
+  - assets/js/dist/search-data.json
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
