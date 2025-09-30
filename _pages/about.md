@@ -9,19 +9,15 @@ profile:
   image: prof_pic.jpg
   address: >
 
-
-
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 news: true
 
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
 ---
-
 
 Hello! I'm a research scientist in speech processing from Porto Alegre, Brazil. I am currently employed at NAVER LABS Europe, where I focus on **multimodal dynamic agents for speech and text understanding**. My research interests include self-supervision, multimodal, multilingual and efficient speech processing, multimodal interaction, computational language documentation, and low-resource NLP.
 

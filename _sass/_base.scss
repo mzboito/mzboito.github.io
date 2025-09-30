@@ -4,11 +4,22 @@
 
 // Typography
 
-p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+div,
+span,
+strong {
   color: var(--global-text-color);
 }
 
-a, table.table a {
+a,
+table.table a {
   color: var(--global-theme-color);
   &:hover {
     color: var(--global-theme-color);
@@ -35,7 +46,6 @@ a, table.table a {
   text-align: center;
 }
 
-
 // Profile
 
 .profile {
@@ -58,7 +68,9 @@ a, table.table a {
   .profile {
     width: 30%;
     .address {
-      p { display: block; }
+      p {
+        display: block;
+      }
     }
   }
 }
@@ -74,7 +86,6 @@ a, table.table a {
     }
   }
 }
-
 
 // Navbar customization
 
@@ -100,13 +111,13 @@ a, table.table a {
       color: var(--global-hover-color);
     }
   }
-  .navbar-nav .nav-item.active>.nav-link {
-      background-color: inherit;
-      font-weight: bolder;
-      color: var(--global-theme-color);
-      &:hover {
-        color: var(--global-hover-color);
-      }
+  .navbar-nav .nav-item.active > .nav-link {
+    background-color: inherit;
+    font-weight: bolder;
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-hover-color);
+    }
   }
   .contact-icon {
     font-size: 2rem;
@@ -153,7 +164,6 @@ a, table.table a {
   }
 }
 
-
 // News
 
 .news table td {
@@ -183,7 +193,6 @@ a, table.table a {
   }
 }
 
-
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
@@ -208,7 +217,6 @@ footer.sticky-bottom {
   padding-bottom: 40px;
   font-size: 0.9rem;
 }
-
 
 // Blog
 
@@ -264,7 +272,6 @@ footer.sticky-bottom {
   }
 }
 
-
 // Distill
 
 .distill {
@@ -273,7 +280,6 @@ footer.sticky-bottom {
     text-decoration: none;
   }
 }
-
 
 // Projects
 
@@ -293,7 +299,6 @@ footer.sticky-bottom {
     width: 100%;
   }
 }
-
 
 // Publications
 
@@ -354,8 +359,8 @@ footer.sticky-bottom {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
-              border-bottom-style: solid;
-              text-decoration: none;
+            border-bottom-style: solid;
+            text-decoration: none;
           }
         }
         > em {
