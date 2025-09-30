@@ -462,4 +462,10 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
+/* Custom override for About page description */
+.page-header .highlight-blue {
+  color: #0076df !important;
+  font-weight: bold !important;
+}
+
 /*# sourceMappingURL=main.css.map */
