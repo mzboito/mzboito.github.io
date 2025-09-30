@@ -270,6 +270,7 @@ footer.sticky-bottom {
       }
     }
   }
+
 }
 
 // Distill
@@ -438,3 +439,8 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
+/* Custom override for About page description */
+.page-header .highlight-blue {
+  color: $blue-color !important;
+  font-weight: bold !important;
+}

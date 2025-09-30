@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <b>Research Scientist</b>; (She/Her); <b><span class="highlight-blue">fist.last-name at naverlabs dot com</span></b>
+description: <b>Research Scientist</b> (She/Her); <b><span style="color:#3399ff; font-weight:bold;">first.last-name at naverlabs dot com</span></b>
 
 profile:
   align: right

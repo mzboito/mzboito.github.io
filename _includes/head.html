@@ -6,7 +6,7 @@
   {% if site.title == blank %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% endif %}{% if page.title
   and page.url != "/" %} | {{ page.title }}{% endif %}
 </title>
-<meta name="description" content="{{ site.description }}" />
+<meta name="description" content="{{ site.description | strip_html }}" />
 
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
