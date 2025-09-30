@@ -386,19 +386,22 @@ footer.sticky-bottom {
   color: var(--global-theme-color) !important;
   border: 1px solid var(--global-theme-color);
 }
+.publications ol.bibliography li abbr.comment-badge {
+  background-color: #f4d35e;
+  color: white;
+}
+.publications ol.bibliography li abbr.comment-badge a {
+  color: white;
+}
+.publications ol.bibliography li abbr.comment-badge a:hover {
+  text-decoration: none;
+}
 .publications ol.bibliography li .title {
   font-weight: bolder;
 }
-.publications ol.bibliography li .author a {
-  border-bottom: 1px dashed var(--global-theme-color);
-}
-.publications ol.bibliography li .author a:hover {
-  border-bottom-style: solid;
-  text-decoration: none;
-}
-.publications ol.bibliography li .author > em {
-  border-bottom: 1px solid;
-  font-style: normal;
+.publications ol.bibliography li .author .author-self {
+  color: #3399ff;
+  font-weight: bold;
 }
 .publications ol.bibliography li .links a.btn {
   color: var(--global-text-color);
