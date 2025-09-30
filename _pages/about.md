@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <b>Research Scientist</b> (She/Her); <b><span style="color:#3399ff; font-weight:bold;">first.last-name at naverlabs dot com</span></b>
+description: <b>Research Scientist</b> (She/Her) <b><span style="color:#f23078; font-weight:bold;">first.last-name at naverlabs dot com</span></b>
 
 profile:
   align: right
@@ -19,6 +19,6 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-Hello! I'm a research scientist in speech processing from Porto Alegre, Brazil. I am currently employed at NAVER LABS Europe, where I focus on **multimodal dynamic agents for speech and text understanding**. My research interests include self-supervision, multimodal, multilingual and efficient speech processing, multimodal interaction, computational language documentation, and low-resource NLP.
+Hello! I'm a research scientist in speech processing from Porto Alegre, Brazil. I am currently employed at NAVER LABS Europe, where I focus on <b><span style="color:#1d3557">multimodal dynamic agents for speech and text understanding</span></b>. My research interests include self-supervision, multimodal, multilingual and efficient speech processing, multimodal interaction, computational language documentation, and low-resource NLP.
 
-I obtained my PhD in Computer Science from the University Grenoble Alpes in 2021. My thesis, **Models and Resources for Attention-based Unsupervised Word Segmentation: An Application to Computational Language Documentation**, was supervised by Professor Besacier and Professor Villavicencio. I also hold two bachelor's degrees, in Computer Science (UFRGS, Brazil) and in Information Systems Engineering (ENSIMAG, France), as well as a Master’s degree in Artificial Intelligence and the Web (MoSIG, UGA, France).
+I obtained my PhD in Computer Science from the University Grenoble Alpes in 2021. My thesis, <b><i><span style="color:#1d3557">Models and Resources for Attention-based Unsupervised Word Segmentation: An Application to Computational Language Documentation</span></i></b>, was supervised by Professor Besacier and Professor Villavicencio. I also hold two bachelor's degrees, in Computer Science (UFRGS, Brazil) and in Information Systems Engineering (ENSIMAG, France), as well as a Master’s degree in Artificial Intelligence and the Web (MoSIG, UGA, France).
