@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <b>Research Scientist</b>. Contact me at <b>fist.last-name@naverlabs.com</b>
+description: <b>Research Scientist</b>; (She/Her); <b><span class="highlight-blue">fist.last-name at naverlabs dot com</span></b>
 
 profile:
   align: right

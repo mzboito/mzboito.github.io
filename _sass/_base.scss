@@ -352,20 +352,24 @@ footer.sticky-bottom {
           border: 1px solid var(--global-theme-color);
         }
       }
+      abbr.comment-badge {
+        background-color: #f4d35e;
+        color: white;
+
+        a {
+          color: white;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
       .title {
         font-weight: bolder;
       }
       .author {
-        a {
-          border-bottom: 1px dashed var(--global-theme-color);
-          &:hover {
-            border-bottom-style: solid;
-            text-decoration: none;
-          }
-        }
-        > em {
-          border-bottom: 1px solid;
-          font-style: normal;
+        .author-self {
+          color: #3399ff;
+          font-weight: bold;
         }
       }
       .links {
@@ -433,3 +437,4 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+

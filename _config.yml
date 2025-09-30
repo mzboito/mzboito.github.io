@@ -134,8 +134,8 @@ plugins:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name:
-  first_name:
+  last_name: Boito
+  first_name: Marcely Zanon
 
   style: apa
   locale: en

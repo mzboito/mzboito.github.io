@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resources
+title: resources
 permalink: /resources/
 description: Resources made available to the community.
 nav: true
