@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-03-27 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Participated in the PhD Thesis jury of Jarod Duret, titled "Traduction de la parole vers la parole expressive" and held in Avignon, France.
+
