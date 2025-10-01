@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Participated in the PhD Thesis jury of Jarod Duret, titled <i><span style="color:#67449f">Traduction de la parole vers la parole expressive</span></i> and held in Avignon, France.
+Participated in the PhD Thesis jury of Jarod Duret, titled <i><span style="color:#1d3557">Traduction de la parole vers la parole expressive</span></i> and held in Avignon, France.

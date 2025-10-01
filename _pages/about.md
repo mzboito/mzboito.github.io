@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <b>Research Scientist</b> (She/Her) <b><span style="color:#f23078; font-weight:bold;">first.last-name at naverlabs dot com</span></b>
+description: <b>Research Scientist</b> (She/Her)
 
 profile:
   align: right
@@ -18,7 +18,9 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
+<b>Contact: <span style="color:#f23078; font-weight:bold;">first.last-name at naverlabs dot com</span></b>
 
-Hello! I'm a research scientist in speech processing from Porto Alegre, Brazil. I am currently employed at NAVER LABS Europe, where I focus on <b><span style="color:#1d3557">multimodal dynamic agents for speech and text understanding</span></b>. My research interests include self-supervision, multimodal, multilingual and efficient speech processing, multimodal interaction, computational language documentation, and low-resource NLP.
 
-I obtained my PhD in Computer Science from the University Grenoble Alpes in 2021. My thesis, <b><i><span style="color:#1d3557">Models and Resources for Attention-based Unsupervised Word Segmentation: An Application to Computational Language Documentation</span></i></b>, was supervised by Professor Besacier and Professor Villavicencio. I also hold two bachelor's degrees, in Computer Science (UFRGS, Brazil) and in Information Systems Engineering (ENSIMAG, France), as well as a Master’s degree in Artificial Intelligence and the Web (MoSIG, UGA, France).
+<b>Hello!</b> I’m a research scientist in speech processing from Porto Alegre, Brazil, currently at NAVER LABS Europe. I work on <b><span style="color:#1d3557">multimodal dynamic agents for speech and text understanding</span></b>, with research interests in self-supervised speech representation, multilingual, and efficient speech processing, multimodal interaction, and computational language documentation.
+
+I earned my PhD in Computer Science from the University Grenoble Alpes (2021), focusing on unsupervised word segmentation for language documentation. I also hold bachelor’s degrees in Computer Science (UFRGS, Brazil) and Information Systems Engineering (ENSIMAG, France), and a Master’s in Artificial Intelligence and the Web (MoSIG, UGA, France).

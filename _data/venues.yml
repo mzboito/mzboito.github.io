@@ -1,0 +1,62 @@
+# conferences #0D1164
+
+"IWSLT":
+    url: https://iwslt.org/
+    color: "#0D1164"
+
+"Interspeech":
+    url: https://www.isca-speech.org/
+    color: "#0D1164"
+
+"ICASSP":
+    color: "#0D1164"
+
+"LREC":
+    color: "#0D1164"
+    url: https://www.elra.info/elra-events/lrec/
+
+"NeurIPS":
+    color: "#0D1164"
+    url: https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021
+
+"IBERAMIA":
+    color: "#0D1164"
+    url: https://www.iberamia.org/iberamia/
+
+
+# journals
+"CS&L Journal":
+    url: https://www.sciencedirect.com/journal/computer-speech-and-language
+    color: "#EA2264"
+
+"MT Journal":
+    url: https://link.springer.com/journal/10590/volumes-and-issues
+    color: "#EA2264"
+
+# workshops #640D5F
+"SIGUL":
+    color: "#640D5F"
+    url: https://www.elra.info/about/sig/sigul/
+
+"SLTU":
+    color: "#640D5F"
+
+"ASRU":
+    color: "#640D5F"
+    url: https://signalprocessingsociety.org/event-names/asru
+
+# local conferences #F78D60
+"CAID":
+    color: "#F78D60"
+    url: https://caid-conference.eu/en/
+
+"LIFT":
+    color: "#F78D60"
+    url: https://lift2023.sciencesconf.org/
+
+"TorPorEsp":
+    color: "#F78D60"
+
+"JEP":
+    color: "#F78D60"
+    url: https://www.afcp-parole.org/category/animations-scientifiques/les-jep/
