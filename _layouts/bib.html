@@ -1,82 +1,43 @@
 ---
 ---
 
-  <div class="row">
-    <div class="col-sm-2 abbr">
-      {% if entry.abbr %}
-        {% assign venue = site.data.venues[entry.abbr] %}
-        {% if venue %}
-          <abbr class="badge" style="background-color: {{ venue.color }};">
-            <a href="{{ venue.url }}" target="_blank">{{ entry.abbr }}</a>
-          </abbr>
-        {% else %}
-          <abbr class="badge">{{ entry.abbr }}</abbr>
-        {% endif %}
-      {% endif %}
-      {% if entry.langdoc %}
-        {% assign comment_venue = site.data.venues[entry.langdoc] %}
-        {% if comment_venue %}
-          <abbr class="badge langdoc-badge" style="background-color: {{ comment_venue.color }};">
-            <a href="{{ comment_venue.url }}" target="_blank">{{ entry.langdoc }}</a>
-          </abbr>
-        {% else %}
-          <abbr class="badge langdoc-badge">{{ entry.langdoc }}</abbr>
-        {% endif %}
-      {% endif %}
-      {% if entry.comment %}
-        {% assign comment_venue = site.data.venues[entry.comment] %}
-        {% if comment_venue %}
-          <abbr class="badge comment-badge" style="background-color: {{ comment_venue.color }};">
-            <a href="{{ comment_venue.url }}" target="_blank">{{ entry.comment }}</a>
-          </abbr>
-        {% else %}
-          <abbr class="badge comment-badge">{{ entry.comment }}</abbr>
-        {% endif %}
-      {% endif %}
-      
-    </div>
+<div class="row">
+  <div class="col-sm-2 abbr">
+    {% if entry.abbr %} {% assign venue = site.data.venues[entry.abbr] %} {% if venue %}
+    <abbr class="badge" style="background-color: {{ venue.color }};">
+      <a href="{{ venue.url }}" target="_blank">{{ entry.abbr }}</a>
+    </abbr>
+    {% else %}
+    <abbr class="badge">{{ entry.abbr }}</abbr>
+    {% endif %} {% endif %} {% if entry.langdoc %} {% assign comment_venue = site.data.venues[entry.langdoc] %} {% if comment_venue %}
+    <abbr class="badge langdoc-badge" style="background-color: {{ comment_venue.color }};">
+      <a href="{{ comment_venue.url }}" target="_blank">{{ entry.langdoc }}</a>
+    </abbr>
+    {% else %}
+    <abbr class="badge langdoc-badge">{{ entry.langdoc }}</abbr>
+    {% endif %} {% endif %} {% if entry.comment %} {% assign comment_venue = site.data.venues[entry.comment] %} {% if comment_venue %}
+    <abbr class="badge comment-badge" style="background-color: {{ comment_venue.color }};">
+      <a href="{{ comment_venue.url }}" target="_blank">{{ entry.comment }}</a>
+    </abbr>
+    {% else %}
+    <abbr class="badge comment-badge">{{ entry.comment }}</abbr>
+    {% endif %} {% endif %}
+  </div>
   <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type == "thesis" %} {{reference}} {% else %}
     <div class="title">{{entry.title}}</div>
     <div class="author">
-      {% for author in entry.author_array %}
-        {% assign author_is_self = false %}
-        {% if author.last == site.scholar.last_name %}
-          {% if site.scholar.first_name contains author.first %}
-            {% assign author_is_self = true %}
-          {% endif %}
-        {% endif %}
-
-        {% if forloop.length == 1 %}
-          {% if author_is_self %}
-            <span class="author-self">{{author.last}}, {{author.first}}</span>
-          {% else %}
-            {{author.last}}, {{author.first}}
-          {% endif %}
-        {% else %}
-          {% unless forloop.last %}
-            {% if author_is_self %}
-              <span class="author-self">{{author.last}}, {{author.first}}</span>,
-            {% else %}
-              {% if site.data.coauthors[author.last] %}
-                <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
-              {% else %}
-                {{author.last}}, {{author.first}},
-              {% endif %}
-            {% endif %}
-          {% else %}
-            {% if author_is_self %}
-              and <span class="author-self">{{author.last}}, {{author.first}}</span>
-            {% else %}
-              {% if site.data.coauthors[author.last] %}
-                and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
-              {% else %}
-                and {{author.last}}, {{author.first}}
-              {% endif %}
-            {% endif %}
-          {% endunless %}
-        {% endif %}
-      {% endfor %}
+      {% for author in entry.author_array %} {% assign author_is_self = false %} {% if author.last == site.scholar.last_name %} {% if
+      site.scholar.first_name contains author.first %} {% assign author_is_self = true %} {% endif %} {% endif %} {% if forloop.length == 1 %} {% if
+      author_is_self %}
+      <span class="author-self">{{author.last}}, {{author.first}}</span>
+      {% else %} {{author.last}}, {{author.first}} {% endif %} {% else %} {% unless forloop.last %} {% if author_is_self %}
+      <span class="author-self">{{author.last}}, {{author.first}}</span>, {% else %} {% if site.data.coauthors[author.last] %}
+      <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>, {% else %} {{author.last}},
+      {{author.first}}, {% endif %} {% endif %} {% else %} {% if author_is_self %} and
+      <span class="author-self">{{author.last}}, {{author.first}}</span> {% else %} {% if site.data.coauthors[author.last] %} and
+      <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
+      {% else %} and {{author.last}}, {{author.first}} {% endif %} {% endif %} {% endunless %} {% endif %} {% endfor %}
     </div>
 
     <div class="periodical">

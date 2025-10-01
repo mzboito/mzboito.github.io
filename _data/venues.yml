@@ -1,65 +1,65 @@
 # conferences #EF476F
 
 "IWSLT":
-    url: https://iwslt.org/
-    color: "#EF476F"
+  url: https://iwslt.org/
+  color: "#EF476F"
 
 "Interspeech":
-    url: https://www.isca-speech.org/
-    color: "#EF476F"
+  url: https://www.isca-speech.org/
+  color: "#EF476F"
 
 "ICASSP":
-    color: "#EF476F"
+  color: "#EF476F"
 
 "LREC":
-    color: "#EF476F"
-    url: https://www.elra.info/elra-events/lrec/
+  color: "#EF476F"
+  url: https://www.elra.info/elra-events/lrec/
 
 "NeurIPS":
-    color: "#EF476F"
-    url: https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021
+  color: "#EF476F"
+  url: https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021
 
 "IBERAMIA":
-    color: "#EF476F"
-    url: https://www.iberamia.org/iberamia/
+  color: "#EF476F"
+  url: https://www.iberamia.org/iberamia/
 
 "EMNLP Findings":
-    color: "#EF476F"
-    url: https://www.aclweb.org/portal/
+  color: "#EF476F"
+  url: https://www.aclweb.org/portal/
 
 # journals
 "CS&L Journal":
-    url: https://www.sciencedirect.com/journal/computer-speech-and-language
-    color: "#12B589"
+  url: https://www.sciencedirect.com/journal/computer-speech-and-language
+  color: "#12B589"
 
 "MT Journal":
-    url: https://link.springer.com/journal/10590/volumes-and-issues
-    color: "#12B589"
+  url: https://link.springer.com/journal/10590/volumes-and-issues
+  color: "#12B589"
 
 # workshops #118AB2
 "SIGUL":
-    color: "#118AB2"
-    url: https://www.elra.info/about/sig/sigul/
+  color: "#118AB2"
+  url: https://www.elra.info/about/sig/sigul/
 
 "SLTU":
-    color: "#118AB2"
+  color: "#118AB2"
 
 "ASRU":
-    color: "#118AB2"
-    url: https://signalprocessingsociety.org/event-names/asru
+  color: "#118AB2"
+  url: https://signalprocessingsociety.org/event-names/asru
 
 # local conferences #5555B6
 "CAID":
-    color: "#5555B6"
-    url: https://caid-conference.eu/en/
+  color: "#5555B6"
+  url: https://caid-conference.eu/en/
 
 "LIFT":
-    color: "#5555B6"
-    url: https://lift2023.sciencesconf.org/
+  color: "#5555B6"
+  url: https://lift2023.sciencesconf.org/
 
 "TorPorEsp":
-    color: "#5555B6"
+  color: "#5555B6"
 
 "JEP":
-    color: "#5555B6"
-    url: https://www.afcp-parole.org/category/animations-scientifiques/les-jep/
+  color: "#5555B6"
+  url: https://www.afcp-parole.org/category/animations-scientifiques/les-jep/

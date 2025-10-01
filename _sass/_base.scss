@@ -270,7 +270,6 @@ footer.sticky-bottom {
       }
     }
   }
-
 }
 
 // Distill
@@ -365,7 +364,7 @@ footer.sticky-bottom {
         }
       }
       abbr.langdoc-badge {
-        background-color: #073B4C;
+        background-color: #073b4c;
         color: white;
 
         a {
@@ -458,44 +457,44 @@ html.transition *:after {
 
 /* project stuff by chat gpt */
 .project-row-small .card {
-  margin: 10px auto;       /* optional spacing */
-  max-width: 250px;        /* optional: limit card width */
+  margin: 10px auto; /* optional spacing */
+  max-width: 250px; /* optional: limit card width */
 }
 
 .project-row-small .card-body {
-  padding: 10px;           /* smaller padding */
-  font-size: 0.85rem;      /* shrink text */
+  padding: 10px; /* smaller padding */
+  font-size: 0.85rem; /* shrink text */
   line-height: 1.2;
 }
 
 .project-row-small .card-title {
-  font-size: 1rem;         /* smaller title */
+  font-size: 1rem; /* smaller title */
 }
 
 .project-row-small .card-text {
-  font-size: 0.85rem;      /* smaller description */
+  font-size: 0.85rem; /* smaller description */
 }
 
 .project-row-small .card-title {
-  font-size: 1rem;       /* slightly smaller title */
-  font-weight: 600;       /* optional bold */
-  color: #1E90FF;         /* default title color */
+  font-size: 1rem; /* slightly smaller title */
+  font-weight: 600; /* optional bold */
+  color: #1e90ff; /* default title color */
   transition: color 0.3s; /* smooth hover effect */
 }
 
 /* Optional: different colors per category */
 #model .card-title {
-  color: #EF476F;   /* blue for Models */
+  color: #ef476f; /* blue for Models */
 }
 
 #data .card-title {
-  color: #12B589;   /* green for Datasets */
+  color: #12b589; /* green for Datasets */
 }
 
 .project-category {
   clear: both;
-  margin-top: 0;        /* remove top margin */
-  margin-bottom: 40px;  /* smaller space between sections */
+  margin-top: 0; /* remove top margin */
+  margin-bottom: 40px; /* smaller space between sections */
 }
 
 /* Keep small space from page header to first section */
@@ -517,5 +516,9 @@ html.transition *:after {
   line-height: 1.3;
 }
 /* Optional: keep Rouge span coloring */
-.resources-page pre code .k { color: #d14; }   /* keywords like @article */
-.resources-page pre code .s { color: #12B589; } /* strings in braces */
+.resources-page pre code .k {
+  color: #d14;
+} /* keywords like @article */
+.resources-page pre code .s {
+  color: #12b589;
+} /* strings in braces */
