@@ -1,62 +1,65 @@
-# conferences #0D1164
+# conferences #EF476F
 
 "IWSLT":
     url: https://iwslt.org/
-    color: "#0D1164"
+    color: "#EF476F"
 
 "Interspeech":
     url: https://www.isca-speech.org/
-    color: "#0D1164"
+    color: "#EF476F"
 
 "ICASSP":
-    color: "#0D1164"
+    color: "#EF476F"
 
 "LREC":
-    color: "#0D1164"
+    color: "#EF476F"
     url: https://www.elra.info/elra-events/lrec/
 
 "NeurIPS":
-    color: "#0D1164"
+    color: "#EF476F"
     url: https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021
 
 "IBERAMIA":
-    color: "#0D1164"
+    color: "#EF476F"
     url: https://www.iberamia.org/iberamia/
 
+"EMNLP Findings":
+    color: "#EF476F"
+    url: https://www.aclweb.org/portal/
 
 # journals
 "CS&L Journal":
     url: https://www.sciencedirect.com/journal/computer-speech-and-language
-    color: "#EA2264"
+    color: "#12B589"
 
 "MT Journal":
     url: https://link.springer.com/journal/10590/volumes-and-issues
-    color: "#EA2264"
+    color: "#12B589"
 
-# workshops #640D5F
+# workshops #118AB2
 "SIGUL":
-    color: "#640D5F"
+    color: "#118AB2"
     url: https://www.elra.info/about/sig/sigul/
 
 "SLTU":
-    color: "#640D5F"
+    color: "#118AB2"
 
 "ASRU":
-    color: "#640D5F"
+    color: "#118AB2"
     url: https://signalprocessingsociety.org/event-names/asru
 
-# local conferences #F78D60
+# local conferences #5555B6
 "CAID":
-    color: "#F78D60"
+    color: "#5555B6"
     url: https://caid-conference.eu/en/
 
 "LIFT":
-    color: "#F78D60"
+    color: "#5555B6"
     url: https://lift2023.sciencesconf.org/
 
 "TorPorEsp":
-    color: "#F78D60"
+    color: "#5555B6"
 
 "JEP":
-    color: "#F78D60"
+    color: "#5555B6"
     url: https://www.afcp-parole.org/category/animations-scientifiques/les-jep/

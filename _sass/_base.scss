@@ -364,12 +364,23 @@ footer.sticky-bottom {
           }
         }
       }
+      abbr.langdoc-badge {
+        background-color: #073B4C;
+        color: white;
+
+        a {
+          color: white;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
       .title {
         font-weight: bolder;
       }
       .author {
         .author-self {
-          color: #3399ff;
+          color: #b509ac;
           font-weight: bold;
         }
       }

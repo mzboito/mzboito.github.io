@@ -13,7 +13,16 @@
           <abbr class="badge">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
-
+      {% if entry.langdoc %}
+        {% assign comment_venue = site.data.venues[entry.langdoc] %}
+        {% if comment_venue %}
+          <abbr class="badge langdoc-badge" style="background-color: {{ comment_venue.color }};">
+            <a href="{{ comment_venue.url }}" target="_blank">{{ entry.langdoc }}</a>
+          </abbr>
+        {% else %}
+          <abbr class="badge langdoc-badge">{{ entry.langdoc }}</abbr>
+        {% endif %}
+      {% endif %}
       {% if entry.comment %}
         {% assign comment_venue = site.data.venues[entry.comment] %}
         {% if comment_venue %}
@@ -24,6 +33,7 @@
           <abbr class="badge comment-badge">{{ entry.comment }}</abbr>
         {% endif %}
       {% endif %}
+      
     </div>
   <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type == "thesis" %} {{reference}} {% else %}
