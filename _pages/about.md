@@ -18,7 +18,7 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
-<b>Contact: <span style="color:#f23078; font-weight:bold;">first.last-name at naverlabs dot com</span></b>
+<b>Contact: <span style="color:#b509ac; font-weight:bold;">first.last-name at naverlabs dot com</span></b>
 
 
 <b>Hello!</b> I’m a research scientist in speech processing from Porto Alegre, Brazil, currently at NAVER LABS Europe. I work on <b><span style="color:#b509ac">multimodal dynamic agents for speech and text understanding</span></b>, with research interests in self-supervised speech representation, multilingual, and efficient speech processing, multimodal interaction, and computational language documentation.

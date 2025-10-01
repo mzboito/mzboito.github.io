@@ -97,6 +97,8 @@ collections:
 
 news_limit: 5
 
+# Enable categories in the resources/projects page
+enable_project_categories: true
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
