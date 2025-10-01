@@ -397,7 +397,7 @@ footer.sticky-bottom {
   text-decoration: none;
 }
 .publications ol.bibliography li abbr.langdoc-badge {
-  background-color: #073B4C;
+  background-color: #073b4c;
   color: white;
 }
 .publications ol.bibliography li abbr.langdoc-badge a {
@@ -501,17 +501,17 @@ html.transition *:after {
 .project-row-small .card-title {
   font-size: 1rem; /* slightly smaller title */
   font-weight: 600; /* optional bold */
-  color: #1E90FF; /* default title color */
+  color: #1e90ff; /* default title color */
   transition: color 0.3s; /* smooth hover effect */
 }
 
 /* Optional: different colors per category */
 #model .card-title {
-  color: #EF476F; /* blue for Models */
+  color: #ef476f; /* blue for Models */
 }
 
 #data .card-title {
-  color: #12B589; /* green for Datasets */
+  color: #12b589; /* green for Datasets */
 }
 
 .project-category {
@@ -544,7 +544,7 @@ html.transition *:after {
   color: #d14;
 } /* keywords like @article */
 .resources-page pre code .s {
-  color: #12B589;
+  color: #12b589;
 } /* strings in braces */
 
 /*# sourceMappingURL=main.css.map */
