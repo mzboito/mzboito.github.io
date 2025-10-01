@@ -396,11 +396,21 @@ footer.sticky-bottom {
 .publications ol.bibliography li abbr.comment-badge a:hover {
   text-decoration: none;
 }
+.publications ol.bibliography li abbr.langdoc-badge {
+  background-color: #073B4C;
+  color: white;
+}
+.publications ol.bibliography li abbr.langdoc-badge a {
+  color: white;
+}
+.publications ol.bibliography li abbr.langdoc-badge a:hover {
+  text-decoration: none;
+}
 .publications ol.bibliography li .title {
   font-weight: bolder;
 }
 .publications ol.bibliography li .author .author-self {
-  color: #3399ff;
+  color: #b509ac;
   font-weight: bold;
 }
 .publications ol.bibliography li .links a.btn {
