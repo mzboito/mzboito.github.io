@@ -8,7 +8,7 @@
 :root {
   --global-bg-color: #ffffff;
   --global-text-color: #000000;
-  --global-theme-color: #5555B6;
+  --global-theme-color: #5555b6;
   --global-hover-color: rgb(174.1975308642, 174.1975308642, 220.3024691358);
   --global-footer-bg-color: rgb(66.25, 66.25, 66.25);
   --global-footer-text-color: #e8e8e8;
@@ -97,7 +97,7 @@ table.table a {
 }
 a:hover,
 table.table a:hover {
-  color: var(#5555B6);
+  color: var(#5555b6);
   text-decoration: underline;
 }
 a:hover:after,
@@ -328,7 +328,7 @@ footer.sticky-bottom {
   text-decoration: none;
 }
 .projects .grid-item a:hover {
-  color: var(#5555B6);
+  color: var(#5555b6);
 }
 .projects .card img {
   width: 100%;
