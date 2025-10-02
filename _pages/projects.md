@@ -2,12 +2,13 @@
 layout: page
 title: resources
 permalink: /resources/
-description: <span style="color:#EF476F; font-weight:bold;">Models</span> and <span style="color:#12B589; font-weight:bold;">datasets</span> shared with the scientific community. <span style="color:#EF476F; font-weight:bold;">THIS PAGE IS UNDER CONSTRUCTION</span>
+description: <span style="color:#b509ac; font-weight:bold;">Models</span> and <span style="color:#5555B6; font-weight:bold;">datasets</span> shared with the scientific community. <span style="color:#5555B6; font-weight:bold;">THIS PAGE IS UNDER CONSTRUCTION</span>
 nav: true
 nav_order: 3
 display_categories: [model, data]
 horizontal: false
 ---
+
 
 <!-- pages/projects.md -->
 
@@ -26,26 +27,17 @@ horizontal: false
     {% assign sorted_projects = categorized_projects | sort: "importance" %}
 
     {% if sorted_projects.size > 0 %}
-      {% if page.horizontal %}
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-4 project-row-small">
-          {% for project in sorted_projects %}
-            {% include projects_horizontal.liquid %}
-          {% endfor %}
-        </div>
-      </div>
-      {% else %}
-      <div class="row row-cols-1 row-cols-md-4 project-row-small">
+      <div class="project-flex-container">
         {% for project in sorted_projects %}
-          {% include projects.liquid %}
+          <div class="project-flex-item">
+            {% include projects.liquid %}
+          </div>
         {% endfor %}
       </div>
-      {% endif %}
     {% else %}
       <p>No projects in this category yet.</p>
     {% endif %}
 
   </section>
   {% endfor %}
-
 </div>

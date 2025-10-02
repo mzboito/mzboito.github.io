@@ -22,7 +22,7 @@ a,
 table.table a {
   color: var(--global-theme-color);
   &:hover {
-    color: var(--global-theme-color);
+    color: var(#5555B6); //--global-theme-color);
     text-decoration: underline;
   }
   &:hover:after {
@@ -291,7 +291,7 @@ footer.sticky-bottom {
       color: black;
       text-decoration: none;
       &:hover {
-        color: var(--global-theme-color);
+        color: var(#5555B6); //--global-hover-color); --global-theme-color);
       }
     }
   }
@@ -379,7 +379,7 @@ footer.sticky-bottom {
       }
       .author {
         .author-self {
-          color: #b509ac;
+          color: var(--global-theme-color);
           font-weight: bold;
         }
       }
@@ -457,18 +457,14 @@ html.transition *:after {
 
 /* project stuff by chat gpt */
 .project-row-small .card {
-  margin: 10px auto; /* optional spacing */
-  max-width: 250px; /* optional: limit card width */
+  margin: 0;           /* remove auto margins */
+  max-width: 100%;     /* cards should stretch to col width */
 }
 
 .project-row-small .card-body {
   padding: 10px; /* smaller padding */
   font-size: 0.85rem; /* shrink text */
   line-height: 1.2;
-}
-
-.project-row-small .card-title {
-  font-size: 1rem; /* smaller title */
 }
 
 .project-row-small .card-text {
@@ -484,11 +480,11 @@ html.transition *:after {
 
 /* Optional: different colors per category */
 #model .card-title {
-  color: #ef476f; /* blue for Models */
+  color: #b509ac; /* blue for Models */
 }
 
 #data .card-title {
-  color: #12b589; /* green for Datasets */
+  color: var(--global-theme-color); /* green for Datasets */
 }
 
 .project-category {
@@ -522,3 +518,36 @@ html.transition *:after {
 .resources-page pre code .s {
   color: #12b589;
 } /* strings in braces */
+
+.project-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;          /* adjust spacing between cards */
+}
+
+.project-flex-item {
+  flex: 1 1 calc(20% - 10px); /* 5 cards per row minus gap */
+  max-width: calc(20% - 10px);
+}
+
+.project-flex-item .card {
+  margin: 0;
+  width: 100%;
+}
+
+.project-flex-item .card-body {
+  padding: 8px;           /* smaller padding */
+  font-size: 0.75rem;     /* smaller text */
+  line-height: 1.1;       /* tighter lines */
+}
+
+.project-flex-item .card-title {
+  font-size: 1rem;     /* smaller title */
+  font-weight: 600;
+  margin-bottom: 0.5rem;  /* reduce space below title */
+}
+
+.project-flex-item .card-text {
+  font-size: 0.55rem;      /* smaller description text */
+  margin-bottom: 0;       /* optional */
+}
