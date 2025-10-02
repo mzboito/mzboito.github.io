@@ -17,7 +17,6 @@ This annotated audio collection corresponds to **19 hours** of radio broadcasts 
 - Dataset: <a href="https://github.com/mzboito/IWSLT2022_Tamasheq_data">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/></a>
 
-
 ### citing us
 
 When using our dataset, please cite the following paper:

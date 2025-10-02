@@ -17,7 +17,6 @@ This speech corpus was collected during a realistic language documentation proce
 - Dataset: <a href="https://github.com/besacier/mboshi-french-parallel-corpus">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/></a>
 
-
 - Multilingual extension: <a href="https://github.com/mzboito/mmboshi">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/></a>
 
@@ -68,6 +67,7 @@ When using our dataset, please cite the following paper:
 </div>
 
 Use this following bibtex for citing the mmboshi corpus:
+
 <div class="resources-page">
 {% highlight bibtex %}
 @inproceedings{zanonboito:hal-02895895,

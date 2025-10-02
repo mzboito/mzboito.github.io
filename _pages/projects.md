@@ -9,7 +9,6 @@ display_categories: [model, data]
 horizontal: false
 ---
 
-
 <!-- pages/projects.md -->
 
 <div class="projects">

@@ -17,7 +17,6 @@ This very small parallel speech corpus presents speech in the endangered languag
 - Dataset: <a href="https://github.com/antonisa/griko-italian-parallel-corpus">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/></a>
 
-
 ### citing us
 
 When using our dataset, please cite the following paper:
@@ -34,4 +33,3 @@ When using our dataset, please cite the following paper:
 }
 {% endhighlight %}
 </div>
-
