@@ -22,7 +22,7 @@ a,
 table.table a {
   color: var(--global-theme-color);
   &:hover {
-    color: var(#5555b6); //--global-theme-color);
+    color: var(--global-theme-color);
     text-decoration: underline;
   }
   &:hover:after {
@@ -487,15 +487,26 @@ html.transition *:after {
   color: var(--global-theme-color); /* green for Datasets */
 }
 
+/* Line below each section */
 .project-category {
   clear: both;
-  margin-top: 0; /* remove top margin */
-  margin-bottom: 40px; /* smaller space between sections */
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
-/* Keep small space from page header to first section */
+/* Remove line after the last section */
+.project-category:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Add line above the first section */
 .project-category:first-of-type {
-  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+  margin-top: 8px; /* small gap above the line */
 }
 
 /* Gray background for the entire code block */

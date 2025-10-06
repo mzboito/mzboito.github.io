@@ -2,7 +2,11 @@
 layout: page
 title: resources
 permalink: /resources/
-description: <span style="color:#b509ac; font-weight:bold;">Models</span> and <span style="color:#5555B6; font-weight:bold;">datasets</span> shared with the scientific community.
+description: >
+  <span style="color: var(--global-theme-color); font-weight: bold;">Models</span>
+  and
+  <span style="color: #b509ac; font-weight: bold;">datasets</span>
+  shared with the scientific community.
 nav: true
 nav_order: 3
 display_categories: [model, data]
