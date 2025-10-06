@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mboshi-French Parallel Speech Corpus
-description: 5,130 utterances from a true language documentation setting
+description: 5,130 utterances from a true documentation setting
 importance: 4
 category: data
 related_publications: true
