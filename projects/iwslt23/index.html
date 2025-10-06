@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <title>
-  Marcely  Zanon Boito | MaSS Multilingual Speech-to-Speech Corpus
+  Marcely  Zanon Boito | IWLST 23 Code
 </title>
 <meta name="description" content="Marcely Zanon Boito's website.
 " />
@@ -54,7 +54,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico" />
 <link rel="stylesheet" href="/assets/css/main.css" />
 
-<link rel="canonical" href="/projects/mass/" />
+<link rel="canonical" href="/projects/iwslt23/" />
 
 <!-- Theming-->
 
@@ -148,64 +148,47 @@
 
     <div class="container mt-5"><div class="post">
   <header class="post-header">
-    <h1 class="post-title">MaSS Multilingual Speech-to-Speech Corpus</h1>
-    <p class="post-description">An aligned speech extension from the CMU dataset</p>
+    <h1 class="post-title">IWLST 23 Code</h1>
+    <p class="post-description">Winning submission from low-resource ST track</p>
   </header>
 
   <article><h3 id="about">about</h3>
 
-<p>We extended the CMU multilingual corpus to speech by aligning the contenxt from the Bible with corresponding audiobooks. The results is a 8,130 sentences long speech parallel dataset across eight languages. The eight covered languages are: English, Spanish, French, Hungarian, Romanian, Basque, Russian and Finnish. The datasets covers any-to-any speech-to-speech translation. The data is shared with the <strong>MIT License</strong>.</p>
+<p>NAVER LABS Europe submitted a single multilingual speech translation system that achieved the top performance in the IWSLT 2023 low-resource track for the Tamasheq–French and Quechua–Spanish language pairs. Our model leveraged pre-trained speech and text models, and it was implemented on top of the pasero toolkit.</p>
 
-<h3 id="downloading-the-data">downloading the data</h3>
+<h3 id="link-to-resources">link to resources</h3>
 
 <ul>
-  <li>Dataset and code: <a href="https://github.com/getalp/mass-dataset">
+  <li>Training recipe: <a href="https://github.com/naver/pasero/tree/main/examples/IWSLT2023">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub" /></a></li>
 </ul>
 
 <h3 id="citing-us">citing us</h3>
 
-<p>When using our dataset, please cite the following paper:</p>
+<p>For citing us, please use the bibtex below:</p>
 
 <div class="resources-page">
 
-<figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">zanon-boito-etal-2020-mass</span><span class="p">,</span>
-    <span class="na">title</span> <span class="p">=</span> <span class="s">"{M}a{SS}: A Large and Clean Multilingual Corpus of Sentence-aligned Spoken Utterances Extracted from the {B}ible"</span><span class="p">,</span>
-    <span class="na">author</span> <span class="p">=</span> <span class="s">"Boito, Marcely Zanon  and
-      Havard, William  and
-      Garnerin, Mahault  and
-      Le Ferrand, {\'E}ric  and
-      Besacier, Laurent"</span><span class="p">,</span>
-    <span class="na">editor</span> <span class="p">=</span> <span class="s">"Calzolari, Nicoletta  and
-      B{\'e}chet, Fr{\'e}d{\'e}ric  and
-      Blache, Philippe  and
-      Choukri, Khalid  and
-      Cieri, Christopher  and
-      Declerck, Thierry  and
-      Goggi, Sara  and
-      Isahara, Hitoshi  and
-      Maegaard, Bente  and
-      Mariani, Joseph  and
-      Mazo, H{\'e}l{\`e}ne  and
-      Moreno, Asuncion  and
-      Odijk, Jan  and
-      Piperidis, Stelios"</span><span class="p">,</span>
-    <span class="na">booktitle</span> <span class="p">=</span> <span class="s">"Proceedings of the Twelfth Language Resources and Evaluation Conference"</span><span class="p">,</span>
-    <span class="na">month</span> <span class="p">=</span> <span class="nv">may</span><span class="p">,</span>
-    <span class="na">year</span> <span class="p">=</span> <span class="s">"2020"</span><span class="p">,</span>
-    <span class="na">address</span> <span class="p">=</span> <span class="s">"Marseille, France"</span><span class="p">,</span>
-    <span class="na">publisher</span> <span class="p">=</span> <span class="s">"European Language Resources Association"</span><span class="p">,</span>
-    <span class="na">url</span> <span class="p">=</span> <span class="s">"https://aclanthology.org/2020.lrec-1.799/"</span><span class="p">,</span>
-    <span class="na">pages</span> <span class="p">=</span> <span class="s">"6486--6493"</span><span class="p">,</span>
-    <span class="na">language</span> <span class="p">=</span> <span class="s">"eng"</span><span class="p">,</span>
-    <span class="na">ISBN</span> <span class="p">=</span> <span class="s">"979-10-95546-34-4"</span><span class="p">,</span>
+<figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">gow-smith-etal-2023-naver</span><span class="p">,</span>
+    <span class="na">title</span> <span class="p">=</span> <span class="s">"{NAVER} {LABS} {E}urope{'}s Multilingual Speech Translation Systems for the {IWSLT} 2023 Low-Resource Track"</span><span class="p">,</span>
+    <span class="na">author</span> <span class="p">=</span> <span class="s">"Gow-Smith, Edward  and
+      Berard, Alexandre  and
+      Boito, Marcely Zanon  and
+      Calapodescu, Ioan"</span><span class="p">,</span>
+    <span class="na">editor</span> <span class="p">=</span> <span class="s">"Salesky, Elizabeth  and
+      Federico, Marcello  and
+      Carpuat, Marine"</span><span class="p">,</span>
+    <span class="na">booktitle</span> <span class="p">=</span> <span class="s">"Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT)"</span><span class="p">,</span>
+    <span class="na">month</span> <span class="p">=</span> <span class="nv">jul</span><span class="p">,</span>
+    <span class="na">year</span> <span class="p">=</span> <span class="s">"2023"</span><span class="p">,</span>
+    <span class="na">address</span> <span class="p">=</span> <span class="s">"Toronto, Canada (in-person and online)"</span><span class="p">,</span>
+    <span class="na">publisher</span> <span class="p">=</span> <span class="s">"Association for Computational Linguistics"</span><span class="p">,</span>
+    <span class="na">url</span> <span class="p">=</span> <span class="s">"https://aclanthology.org/2023.iwslt-1.10.pdf"</span><span class="p">,</span>
+    <span class="na">doi</span> <span class="p">=</span> <span class="s">"10.18653/v1/2023.iwslt-1.10"</span><span class="p">,</span>
+    <span class="na">pages</span> <span class="p">=</span> <span class="s">"144--158"</span>
 <span class="p">}</span></code></pre></figure>
 
 </div>
-
-<p><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/3.0/">
-  <img alt="Creative Commons License" style="border-width:0" width="120" src="https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png" />
-</a></p>
 </article>
 </div>
 </div>
