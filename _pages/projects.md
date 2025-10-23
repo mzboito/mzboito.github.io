@@ -1,6 +1,6 @@
 ---
 layout: page
-title: resources
+title: Resources
 permalink: /resources/
 description: >
   <span style="color: var(--global-theme-color); font-weight: bold;">Models</span>
@@ -20,8 +20,8 @@ horizontal: false
   <section id="{{ category }}" class="project-category">
     <h2 class="category">
       {% case category %}
-        {% when "model" %} models and code
-        {% when "data" %} datasets
+        {% when "model" %} Models and Code
+        {% when "data" %} Datasets
         {% else %} {{ category }}
       {% endcase %}
     </h2>
