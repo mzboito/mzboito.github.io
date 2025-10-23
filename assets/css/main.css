@@ -590,4 +590,65 @@ html.transition *:after {
   margin-bottom: 0;
 }
 
+/*service page*/
+.activity-list {
+  margin-top: 0.5rem;
+}
+
+.activity-list div {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: start;
+  column-gap: 2rem; /* ← spacing between badge and text */
+  margin-bottom: 0.6rem;
+  row-gap: 1.2rem;
+}
+
+.activity-list .activity-text {
+  line-height: 1.5;
+}
+
+/* Base style: inherit from al-folio badges */
+.badge-conference,
+.badge-workshop,
+.badge-journal,
+.badge-local {
+  color: #fff; /* white text for readability */
+}
+
+/* 🎓 Conference badge */
+.badge-conference {
+  background-color: var(--badge-conference, #ef476f);
+}
+
+/* 🧠 Workshop badge */
+.badge-workshop {
+  background-color: var(--badge-workshop, #118ab2);
+}
+
+/* 🏫 Local event badge */
+.badge-local {
+  background-color: var(--badge-local, #5555b6);
+}
+
+.badge-journal {
+  background-color: var(--badge-local, #12b589);
+}
+
+/* Shrink profile picture */
+.profile img {
+  width: 180px; /* adjust this to desired size */
+  height: auto; /* maintain aspect ratio */
+  border-radius: 50%; /* optional: keep it circular */
+  display: block; /* remove inline quirks */
+  margin-bottom: 1rem; /* optional spacing below image */
+}
+
+/* Optional: if container width still restricts image */
+@media (min-width: 576px) {
+  .profile {
+    width: auto; /* let image control its size */
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
