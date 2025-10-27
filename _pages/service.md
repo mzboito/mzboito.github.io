@@ -79,20 +79,20 @@ description: "Professional and community service in research and academia."
 <section class="project-category">
   <h2 class="category">Reviewing and Program Committees</h2>
 
-<div>
-Conference Program Committee Member &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div style="margin-top: 1em; margin-bottom: 1.5em;">
+Conference Program Committee Member &nbsp;&nbsp;&nbsp;
 <a href="https://lrec2020.lrec-conf.org/en/" target="_blank"><span class="badge badge-conference">LREC 2020</span></a> <a href="https://acl2020.org/" target="_blank"><span class="badge badge-conference">ACL 2020</span></a> <span class="badge badge-conference">EMNLP 2020</span> <a href="https://2021.eacl.org/" target="_blank"><span class="badge badge-conference">EACL 2021</span></a> <span class="badge badge-conference">EMNLP 2021</span> <a href="https://2022.aclweb.org/" target="_blank"><span class="badge badge-conference">ACL 2022</span></a> <a href="https://lrec2022.lrec-conf.org/en/" target="_blank"><span class="badge badge-conference">LREC 2022</span></a> <a href="https://2022.naacl.org/" target="_blank"><span class="badge badge-conference">NAACL 2022</span></a> <a href="https://2023.eacl.org/" target="_blank"><span class="badge badge-conference">EACL 2023</span></a> <a href="https://interspeech2024.org/" target="_blank"><span class="badge badge-conference">Interspeech 2024</span></a> <a href="https://2024.ieeeicassp.org/" target="_blank"><span class="badge badge-conference">ICASSP 2024</span></a> <a href="https://www.interspeech2025.org/home" target="_blank"><span class="badge badge-conference">Interspeech 2025</span></a> <span class="badge badge-conference">ARR May 2025</span>
 </div>
 
-<div>
-Workshop Program Committee Member &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://sltu-ccurl-2020.ilc.cnr.it/" target="_blank"><span class="badge badge-workshop">SLTU-CCURL 2020</span></a> <a href="https://sigul-2022.ilc.cnr.it/" target="_blank"><span class="badge badge-workshop">SIGUL 2022</span></a> <a href="https://sites.google.com/tilburguniversity.edu/gitt2023" target="_blank"><span class="badge badge-workshop">GITT 2023</span></a> <a href="https://sites.google.com/view/illc-nlp-2024/home" target="_blank"><span class="badge badge-workshop">ILLC-NLP 2024</span></a>
+<div style="margin-bottom: 1.5em;">
+Workshop Program Committee Member &nbsp;&nbsp;&nbsp; <a href="http://sltu-ccurl-2020.ilc.cnr.it/" target="_blank"><span class="badge badge-workshop">SLTU-CCURL 2020</span></a> <a href="https://sigul-2022.ilc.cnr.it/" target="_blank"><span class="badge badge-workshop">SIGUL 2022</span></a> <a href="https://sites.google.com/tilburguniversity.edu/gitt2023" target="_blank"><span class="badge badge-workshop">GITT 2023</span></a> <a href="https://sites.google.com/view/illc-nlp-2024/home" target="_blank"><span class="badge badge-workshop">ILLC-NLP 2024</span></a>
 </div>
 
-<div>
-Thesis Award Program Committee Member &nbsp;&nbsp;&nbsp;<a href="https://eamt.org/category/eamt-conference/eamt-best-thesis-award/" target="_blank"><span class="badge badge-journal">EMT 2025 Thesis award</span></a>
+<div style="margin-bottom: 1.5em;">
+Thesis Award Program Committee Member &nbsp;&nbsp;&nbsp; <a href="https://eamt.org/category/eamt-conference/eamt-best-thesis-award/" target="_blank"><span class="badge badge-journal">EMT 2025 Thesis award</span></a>
 </div>
 
-<div>
-External Reviewer &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://graal.ens-lyon.fr/sbac-pad/" target="_blank"><span class="badge badge-workshop">SBAC-PAD 2018</span></a> <a href="https://humanrobotinteraction.org/2026/" target="_blank"><span class="badge badge-conference">HRI 2026</span></a>
+<div style="margin-bottom: 1.5em;">
+External Reviewer &nbsp;&nbsp;&nbsp;<a href="https://graal.ens-lyon.fr/sbac-pad/" target="_blank"><span class="badge badge-workshop">SBAC-PAD 2018</span></a> <a href="https://humanrobotinteraction.org/2026/" target="_blank"><span class="badge badge-conference">HRI 2026</span></a>
 
 </div>

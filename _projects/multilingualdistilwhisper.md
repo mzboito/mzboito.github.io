@@ -8,20 +8,36 @@ related_publications: true
 permalink: /projects/multilingualdistilwhisper/
 ---
 
-### about
+<section class="project-category">
+  <h2 class="category">About</h2>
+  <p>
+    Multilingual Distilwhisper allows for better ASR performance in target languages by adding lightweight CLSR modules on top of whisper-small. 
+    This project was developed at NAVER LABS Europe. 
+    The model is shared under the <strong>MIT License</strong>.
+  </p>
+</section>
 
-Multilingual Distilwhisper allows for better ASR performance in target languages by adding lightweight CLSR modules on top of whisper-small. This project was developped at NAVER LABS Europe. The model is shared with the **MIT License**.
+<section class="project-category">
+  <h2 class="category">Link to resources</h2>
+  <ul>
+    <li>
+      Our collection of models: 
+      <a href="https://huggingface.co/collections/naver/multilingual-distilwhisper-6576ecae8d209fc6a767d9e7" target="_blank">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="25" style="vertical-align:middle;" alt="Hugging Face"/>
+      </a>
+    </li>
+    <li>
+      The code: 
+      <a href="https://github.com/naver/multilingual-distilwhisper" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="25" style="vertical-align:middle;" alt="GitHub"/>
+      </a>
+    </li>
+  </ul>
+</section>
 
-### link to resources
-
-- Our collection of models: <a href="https://huggingface.co/collections/naver/multilingual-distilwhisper-6576ecae8d209fc6a767d9e7">
-  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="25" style="vertical-align:middle;" alt="Hugging Face"/></a>
-- The code: <a href="https://github.com/naver/multilingual-distilwhisper">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="25" style="vertical-align:middle;" alt="GitHub"/></a>
-
-### citing us
-
-When using any of these resources, please cite the publication below:
+<section class="project-category">
+  <h2 class="category">Citing us</h2>
+  <p>When using any of these resources, please cite the publication below:</p>
 
 <div class="resources-page">
 {% highlight bibtex %}
@@ -38,3 +54,5 @@ When using any of these resources, please cite the publication below:
 }
 {% endhighlight %}
 </div>
+
+</section>

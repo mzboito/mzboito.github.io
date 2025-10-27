@@ -8,22 +8,44 @@ related_publications: true
 permalink: /projects/lebenchmark/
 ---
 
-### about
+<section class="project-category">
+  <h2 class="category">About</h2>
+  <p>
+    <em>LeBenchmark</em> was a project focused on training wav2vec 2.0 models for the French language. 
+    It was a group effort between many public and private institutions in France. 
+    Throughout the project, we produced several models that were made available to the scientific community under <strong>Apache-2.0 license</strong>. 
+    We also produced a benchmark covering seven tasks and different tuning settings, in order to evaluate the performance of such SSL models in different downstream tasks. 
+    For more information, check these publications: 
+    <a href="https://www.isca-archive.org/interspeech_2021/evain21_interspeech.pdf" target="_blank">LeBenchmark</a> and 
+    <a href="https://arxiv.org/pdf/2309.05472" target="_blank">LeBenchmark 2.0</a>.
+  </p>
+</section>
 
-_LeBenchmark_ was a project focused on training wav2vec 2.0 models for the French language. It was a group effort between many public and private institutions in France. Throughout the project, we produced several models that were made available to the scientific community under **Apache-2.0 license**. We also produced a benchmark covering seven tasks and different tuning settings, in order to evaluate the performance of such SSL models in different downstream tasks. For more information, check these publications: [LeBenchmark](https://www.isca-archive.org/interspeech_2021/evain21_interspeech.pdf) and [LeBenchmark 2.0](https://arxiv.org/pdf/2309.05472).
+<section class="project-category">
+  <h2 class="category">Link to resources</h2>
+  <ul>
+    <li>
+      Our collection of models: 
+      <a href="https://huggingface.co/LeBenchmark" target="_blank">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="25" style="vertical-align:middle;" alt="Hugging Face"/>
+      </a>
+    </li>
+    <li>
+      Other resources: 
+      <a href="https://github.com/LeBenchmark" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="25" style="vertical-align:middle;" alt="GitHub"/>
+      </a>
+    </li>
+  </ul>
+</section>
 
-### link to resources
+<section class="project-category">
+  <h2 class="category">Citing us</h2>
+  <p>
+    We have several publications related to this project. If you simply want to mention the existence of the project, please cite both LeBenchmark (Interspeech) and LeBenchmark 2.0 (Journal) publications. They are listed below:
+  </p>
 
-- Our collection of models: <a href="https://huggingface.co/LeBenchmark">
-  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="25" style="vertical-align:middle;" alt="Hugging Face"/></a>
-- Other resources: <a href="https://github.com/LeBenchmark">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="25" style="vertical-align:middle;" alt="GitHub"/></a>
-
-### citing us
-
-We have several publications related to this project. If you simply want to mention the existence of the project, please cite both LeBenchmark (Interspeech) and LeBenchmark 2.0 (Journal) publications. They are listed below:
-
-<div class="resources-page">
+  <div class="resources-page">
 {% highlight bibtex %}
 @article{parcollet24_lebenchmark,
   title = {LeBenchmark 2.0: A standardized, replicable and enhanced framework for self-supervised representations of French speech},
@@ -63,3 +85,4 @@ In case you want to explicitly cite our work on frozen or unfrozen speech encode
 }
 {% endhighlight %}
 </div>
+</section>

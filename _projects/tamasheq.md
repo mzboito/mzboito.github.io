@@ -8,18 +8,31 @@ related_publications: true
 permalink: /projects/tamasheq/
 ---
 
-### about
+<section class="project-category">
+  <h2 class="category">About</h2>
+  <p>
+    This annotated audio collection corresponds to <strong>19 hours</strong> of radio broadcasts in Tamasheq. 
+    This data was collected by Avignon University in the context of the SELMA EU Project and ANR project ON-TRAC, 
+    and shared under the license <strong>CC BY-NC-ND-3.0</strong>. 
+    It was part of the IWSLT 2022 and 2023 low-resource speech translation track.
+  </p>
+</section>
 
-This annotated audio collection corresponds to **19 hours** of radio broadcasts in Tamasheq. This data was collected by Avignon University in the context of the SELMA EU Project and ANR project ON-TRAC, and shared under the license **CC BY-NC-ND-3.0**. It was part of the IWSLT 2022 low-resource speech translation track.
+<section class="project-category">
+  <h2 class="category">Downloading the data</h2>
+  <ul>
+    <li>
+      Dataset: 
+      <a href="https://github.com/mzboito/IWSLT2022_Tamasheq_data" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/>
+      </a>
+    </li>
+  </ul>
+</section>
 
-### downloading the data
-
-- Dataset: <a href="https://github.com/mzboito/IWSLT2022_Tamasheq_data">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/></a>
-
-### citing us
-
-When using our dataset, please cite the following paper:
+<section class="project-category">
+  <h2 class="category">Citing us</h2>
+  <p>When using our dataset, please cite the following paper:</p>
 
 <div class="resources-page">
 {% highlight bibtex %}
@@ -60,3 +73,4 @@ When using our dataset, please cite the following paper:
   <img alt="Creative Commons License" style="border-width:0" width="120"
        src="https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png" />
 </a>
+</section>

@@ -8,18 +8,28 @@ related_publications: true
 permalink: /projects/iwslt23/
 ---
 
-### about
+<section class="project-category">
+  <h2 class="category">About</h2>
+  <p>
+    NAVER LABS Europe submitted a single multilingual speech translation system that achieved the top performance in the IWSLT 2023 low-resource track for the Tamasheq–French and Quechua–Spanish language pairs. Our model leveraged pre-trained speech and text models, and it was implemented on top of the pasero toolkit.
+  </p>
+</section>
 
-NAVER LABS Europe submitted a single multilingual speech translation system that achieved the top performance in the IWSLT 2023 low-resource track for the Tamasheq–French and Quechua–Spanish language pairs. Our model leveraged pre-trained speech and text models, and it was implemented on top of the pasero toolkit.
+<section class="project-category">
+  <h2 class="category">Link to resources</h2>
+  <ul>
+    <li>
+      Training recipe: 
+      <a href="https://github.com/naver/pasero/tree/main/examples/IWSLT2023" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/>
+      </a>
+    </li>
+  </ul>
+</section>
 
-### link to resources
-
-- Training recipe: <a href="https://github.com/naver/pasero/tree/main/examples/IWSLT2023">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/></a>
-
-### citing us
-
-For citing us, please use the bibtex below:
+<section class="project-category">
+  <h2 class="category">Citing us</h2>
+  <p>For citing us, please use the bibtex below:</p>
 
 <div class="resources-page">
 {% highlight bibtex %}
@@ -43,3 +53,4 @@ For citing us, please use the bibtex below:
 }
 {% endhighlight %}
 </div>
+</section>

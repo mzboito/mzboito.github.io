@@ -8,21 +8,38 @@ related_publications: true
 permalink: /projects/mboshi/
 ---
 
-### about
+<section class="project-category">
+  <h2 class="category">About</h2>
+  <p>
+    This speech corpus was collected during a realistic language documentation process. 
+    It is made up of <strong>5,130</strong> speech utterances in Mboshi (Bantu C25) aligned to French text translations. 
+    Speech transcriptions are also made available: they correspond to a non-standard graphemic form close to the language phonology. 
+    The dataset is made available to the community for reproducible computational language documentation experiments and their evaluation. 
+    This data was collected in the context of the BULB project.
+  </p>
+</section>
 
-This speech corpus was collected during a realistic language documentation process. It is made up of **5,130** speech utterances in Mboshi (Bantu C25) aligned to French text translations. Speech transcriptions are also made available: they correspond to a non-standard graphemic form close to the language phonology. The dataset is made available to the community for reproducible computational language documentation experiments and their evaluation.This data was collected in the context of the BULB project.
+<section class="project-category">
+  <h2 class="category">Downloading the data</h2>
+  <ul>
+    <li>
+      Dataset: 
+      <a href="https://github.com/besacier/mboshi-french-parallel-corpus" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/>
+      </a>
+    </li>
+    <li>
+      Multilingual extension: 
+      <a href="https://github.com/mzboito/mmboshi" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/>
+      </a>
+    </li>
+  </ul>
+</section>
 
-### downloading the data
-
-- Dataset: <a href="https://github.com/besacier/mboshi-french-parallel-corpus">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/></a>
-
-- Multilingual extension: <a href="https://github.com/mzboito/mmboshi">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/></a>
-
-### citing us
-
-When using our dataset, please cite the following paper:
+<section class="project-category">
+  <h2 class="category">Citing us</h2>
+  <p>When using our dataset, please cite the following paper:</p>
 
 <div class="resources-page">
 {% highlight bibtex %}
@@ -85,3 +102,4 @@ Use this following bibtex for citing the mmboshi corpus:
 }
 {% endhighlight %}
 </div>
+</section>

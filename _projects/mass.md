@@ -8,18 +8,32 @@ related_publications: true
 permalink: /projects/mass/
 ---
 
-### about
+<section class="project-category">
+  <h2 class="category">About</h2>
+  <p>
+    We extended the CMU multilingual corpus to speech by aligning the content from the Bible with corresponding audiobooks. 
+    The result is an 8,130-sentence long speech parallel dataset across eight languages. 
+    The eight covered languages are: English, Spanish, French, Hungarian, Romanian, Basque, Russian, and Finnish. 
+    The dataset covers any-to-any speech-to-speech translation. 
+    The data is shared under the <strong>MIT License</strong>.
+  </p>
+</section>
 
-We extended the CMU multilingual corpus to speech by aligning the contenxt from the Bible with corresponding audiobooks. The results is a 8,130 sentences long speech parallel dataset across eight languages. The eight covered languages are: English, Spanish, French, Hungarian, Romanian, Basque, Russian and Finnish. The datasets covers any-to-any speech-to-speech translation. The data is shared with the **MIT License**.
+<section class="project-category">
+  <h2 class="category">Downloading the data</h2>
+  <ul>
+    <li>
+      Dataset and code: 
+      <a href="https://github.com/getalp/mass-dataset" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/>
+      </a>
+    </li>
+  </ul>
+</section>
 
-### downloading the data
-
-- Dataset and code: <a href="https://github.com/getalp/mass-dataset">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" style="vertical-align:middle;" alt="GitHub"/></a>
-
-### citing us
-
-When using our dataset, please cite the following paper:
+<section class="project-category">
+  <h2 class="category">Citing us</h2>
+  <p>When using our dataset, please cite the following paper:</p>
 
 <div class="resources-page">
 {% highlight bibtex %}
@@ -61,3 +75,5 @@ When using our dataset, please cite the following paper:
   <img alt="Creative Commons License" style="border-width:0" width="120"
        src="https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png" />
 </a>
+
+</section>

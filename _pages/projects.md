@@ -3,10 +3,7 @@ layout: page
 title: Resources
 permalink: /resources/
 description: >
-  <span style="color: var(--global-theme-color); font-weight: bold;">Models</span>
-  and
-  <span style="color: #b509ac; font-weight: bold;">datasets</span>
-  shared with the scientific community.
+  Models and Datasets shared with the scientific community.
 nav: true
 nav_order: 3
 display_categories: [model, data]
@@ -30,13 +27,20 @@ horizontal: false
     {% assign sorted_projects = categorized_projects | sort: "importance" %}
 
     {% if sorted_projects.size > 0 %}
-      <div class="project-flex-container">
-        {% for project in sorted_projects %}
-          <div class="project-flex-item">
-            {% include projects.liquid %}
-          </div>
-        {% endfor %}
-      </div>
+      {% if sorted_projects.size > 0 %}
+
+  <ul class="project-list">
+    {% for project in sorted_projects %}
+      <li class="project-list-item">
+        <a href="{{ project.url | relative_url }}" class="project-link">
+          {{ project.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No projects in this category yet.</p>
+{% endif %}
     {% else %}
       <p>No projects in this category yet.</p>
     {% endif %}

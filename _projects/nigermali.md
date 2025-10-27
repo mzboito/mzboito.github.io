@@ -8,17 +8,25 @@ related_publications: true
 permalink: /projects/niger-mali/
 ---
 
-### about
+<section class="project-category">
+  <h2 class="category">About</h2>
+  <p>
+    This unannotated audio collection corresponds to <strong>671 hours</strong> of radio broadcasts in five languages: French from Niger, Fulfulde, Hausa, Tamasheq, and Zarma. 
+    This data was collected by Avignon University in the context of the SELMA EU Project, and shared under the license <strong>CC BY-NC-ND-3.0</strong>.
+  </p>
+</section>
 
-This unannotated audio collection corresponds to **671 hours** of radio broadcasts in five languages: French from Niger, Fulfulde, Hausa, Tamasheq and Zarma. This data was collected by Avignon University in the context of the SELMA EU Project, and shared under the license **CC BY-NC-ND-3.0**.
+<section class="project-category">
+  <h2 class="category">Downloading the data</h2>
+  <p>
+    The datasets are available for download 
+    <a href="https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/" target="_blank">here</a>.
+  </p>
+</section>
 
-### downloading the data
-
-The datasets are available for download [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/).
-
-### citing us
-
-When using our dataset, please cite the following paper:
+<section class="project-category">
+  <h2 class="category">Citing us</h2>
+  <p>When using our dataset, please cite the following paper:</p>
 
 <div class="resources-page">
 {% highlight bibtex %}
@@ -59,3 +67,4 @@ When using our dataset, please cite the following paper:
   <img alt="Creative Commons License" style="border-width:0" width="120"
        src="https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png" />
 </a>
+</section>
