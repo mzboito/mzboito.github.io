@@ -627,3 +627,46 @@ html.transition *:after {
     width: auto; /* let image control its size */
   }
 }
+
+.project-category {
+  margin: 2em 0;
+}
+
+.category {
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+  gap: 20px;
+}
+
+.year-badge {
+  background-color: #5555b6; /* accent color */
+  color: white;
+  font-weight: 600;
+  padding: 2px 8px; /* slimmer padding */
+  border-radius: 4px; /* subtle rounded corners */
+  font-size: 0.9rem; /* smaller text */
+  min-width: auto; /* remove fixed width */
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.timeline-content {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.timeline-content li {
+  margin-bottom: 0.7em;
+  color: #333;
+}
+
+.timeline-content li a i {
+  font-style: italic;
+}

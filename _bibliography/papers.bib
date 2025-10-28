@@ -34,6 +34,7 @@
     pdf = {https://arxiv.org/pdf/2506.01808},
     abbr = {IWSLT},
     comment = {Track Winner},
+    poster = {posters/IWSLT2025.pdf},
     abstract = "In this paper we describe NAVER LABS Europe submission to the instruction-following speech processing short track at IWSLT 2025. We participate in the constrained settings, developing systems that can simultaneously perform ASR, ST, and SQA tasks from English speech input into the following target languages: Chinese, Italian, and German. Our solution leverages two pretrained modules: (1) a speech-to-LLM embedding projector trained using representations from the SeamlessM4T-v2-large speech encoder; and (2) LoRA adapters trained on text data on top of Llama-3.1-8B-Instruct. These modules are jointly loaded and further instruction-tuned for 1K steps on multilingual and multimodal data to form our final system submitted for evaluation."
 }
 
@@ -48,6 +49,7 @@
   issn      = {2958-1796},
   abbr = {Interspeech},
   pdf = {https://arxiv.org/pdf/2406.06371},
+  poster = {posters/interspeech2024.pdf}
 }
 
 @INPROCEEDINGS{10447520,
@@ -60,6 +62,7 @@
   pages={10716-10720},
   abbr = {ICASSP},
   pdf = {https://arxiv.org/pdf/2311.01070},
+  poster = {posters/ICASSP2024.pdf},
   keywords={Adaptation models;Costs;Training data;Signal processing;Logic gates;Multitasking;Robustness;knowledge distillation;multitask speech processing;automatic speech recognition;multilingual speech processing;language experts},
   doi={10.1109/ICASSP48485.2024.10447520}
 }
@@ -136,8 +139,9 @@
     publisher = "European Language Resources Association",
     url = "https://aclanthology.org/2022.sigul-1.1/",
     pages = "1--9",
-    pdf = {},
+    pdf = {https://aclanthology.org/2022.sigul-1.1.pdf},
     abbr = {SIGUL},
+    slides = {slides/SIGUL2022.pdf},
     abstract = "Documenting languages helps to prevent the extinction of endangered dialects - many of which are otherwise expected to disappear by the end of the century. When documenting oral languages, unsupervised word segmentation (UWS) from speech is a useful, yet challenging, task. It consists in producing time-stamps for slicing utterances into smaller segments corresponding to words, being performed from phonetic transcriptions, or in the absence of these, from the output of unsupervised speech discretization models. These discretization models are trained using raw speech only, producing discrete speech units that can be applied for downstream (text-based) tasks. In this paper we compare five of these models: three Bayesian and two neural approaches, with regards to the exploitability of the produced units for UWS. For the UWS task, we experiment with two models, using as our target language the Mboshi (Bantu C25), an unwritten language from Congo-Brazzaville. Additionally, we report results for Finnish, Hungarian, Romanian and Russian in equally low-resource settings, using only 4 hours of speech. Our results suggest that neural models for speech discretization are difficult to exploit in our setting, and that it might be necessary to adapt them to limit sequence length. We obtain our best UWS results by using Bayesian models that produce high quality, yet compressed, discrete representations of the input speech signal."
 }
 
@@ -172,6 +176,7 @@
     pages = "2066--2071",
     abbr = {LREC},
     pdf = {https://aclanthology.org/2022.lrec-1.222.pdf},
+    poster = {posters/LREC2022.pdf},
     abstract = "In this paper we present two datasets for Tamasheq, a developing language mainly spoken in Mali and Niger. These two datasets were made available for the IWSLT 2022 low-resource speech translation track, and they consist of collections of radio recordings from daily broadcast news in Niger (Studio Kalangou) and Mali (Studio Tamani). We share (i) a massive amount of unlabeled audio data (671 hours) in five languages: French from Niger, Fulfulde, Hausa, Tamasheq and Zarma, and (ii) a smaller 17 hours parallel corpus of audio recordings in Tamasheq, with utterance-level translations in the French language. All this data is shared under the Creative Commons BY-NC-ND 3.0 license. We hope these resources will inspire the speech community to develop and benchmark models using the Tamasheq language."
 }
 
@@ -201,6 +206,8 @@
     pages = "308--318",
     abbr = {IWSLT},
     pdf = {https://aclanthology.org/2022.iwslt-1.28.pdf},
+    poster = {posters/IWSLT2022_lowresource.pdf},
+    comment = {Track Winner},
     abstract = "This paper describes the ON-TRAC Consortium translation systems developed for two challenge tracks featured in the Evaluation Campaign of IWSLT 2022: low-resource and dialect speech translation. For the Tunisian Arabic-English dataset (low-resource and dialect tracks), we build an end-to-end model as our joint primary submission, and compare it against cascaded models that leverage a large fine-tuned wav2vec 2.0 model for ASR. Our results show that in our settings pipeline approaches are still very competitive, and that with the use of transfer learning, they can outperform end-to-end models for speech translation (ST). For the Tamasheq-French dataset (low-resource track) our primary submission leverages intermediate representations from a wav2vec 2.0 model trained on 234 hours of Tamasheq audio, while our contrastive model uses a French phonetic transcription of the Tamasheq audio as input in a Conformer speech translation architecture jointly trained on automatic speech recognition, ST and machine translation losses. Our results highlight that self-supervised models trained on smaller sets of target data are more effective to low-resource end-to-end ST fine-tuning, compared to large off-the-shelf models. Results also illustrate that even approximate phonetic transcriptions can improve ST scores."
 }
 
@@ -315,6 +322,7 @@
  year = {2021},
  abbr = {NeurIPS},
  langdoc= {Benchmarks Track},
+ poster = {posters/NeurIPS2021.pdf},
  pdf = {https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/b3e3e393c77e35a4a3f3cbd1e429b5dc-Paper-round2.pdf},
 }
 
@@ -413,6 +421,7 @@
   pages     = {2688--2692},
   doi       = {10.21437/Interspeech.2019-2029},
   issn      = {2958-1796},
+  slides = {slides/interspeech2019.pdf},
   pdf  = {https://www.isca-archive.org/interspeech_2019/boito19_interspeech.pdf},
   abbr = {Interspeech},
 }
@@ -508,6 +517,7 @@
   pages     = {36--41},
   doi       = {10.21437/SLTU.2018-8},
   abbr = {SLTU},
+  slides = {slides/SLTU2018.pdf},
   pdf = "https://www.isca-archive.org/sltu_2018/zanonboito18_sltu.pdf",
 }
 
@@ -520,6 +530,7 @@
   doi       = {10.21437/Interspeech.2018-1308},
   issn      = {2958-1796},
   abbr = {Interspeech},
+  slides = {slides/interspeech2018.pdf},
   pdf = "https://www.isca-archive.org/interspeech_2018/godard18_interspeech.pdf",
 }
 
