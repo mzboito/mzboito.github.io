@@ -19,7 +19,6 @@ description: "Other resources and informations."
     </ul>
   </div>
 
-
   <div class="timeline-item">
     <div class="year-badge">2024</div>
     <ul class="timeline-content">
