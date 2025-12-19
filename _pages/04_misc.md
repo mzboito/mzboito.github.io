@@ -10,6 +10,17 @@ description: "Other resources and informations."
   <h3 class="category">Invited Presentations and Panels</h3>
 
   <div class="timeline-item">
+    <div class="year-badge">2025</div>
+    <ul class="timeline-content">
+      <li>
+        05/07 - <b>Invited seminar</b> at FBK-MT group: 
+        <a href="../assets/pdf/seminars/seminar_2025.pdf"><i>"Training Speech LLMs: Insights and Lessons Learned"</i></a>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="timeline-item">
     <div class="year-badge">2024</div>
     <ul class="timeline-content">
       <li>
@@ -64,7 +75,7 @@ description: "Other resources and informations."
         <li>02/07 - Avignon University</li>
         <li>30/08 - TALEP, LIS - Marseille</li>
         <li>29/11 - <a href="https://homepages.inf.ed.ac.uk/htang2/sigml/seminar">ISCA SIGML special group</a></li>
-        <li>CoML, ENS Paris (14/12)</li>
+        <li>14/12 - CoML, ENS Paris</li>
       </ul>
     </li>
   </ul>
@@ -88,7 +99,7 @@ description: "Other resources and informations."
     <li>
       Vivek Iyer - <a href="https://arxiv.org/pdf/2406.06371">Benchmarking SSL models: mHuBERT-147 project</a>
     </li>
-    <li>Biswesh Mohapatra - Multimodal projection for LLMs</li>
+    <li>Biswesh Mohapatra - SpeechMapper</li>
     <li>Hemant Yadav - Multimodal projection for LLMs</li>
   </ul>
 <p class="subsection-title" style="margin-left: 0.5em"><b>PhD Juries:</b></p>
