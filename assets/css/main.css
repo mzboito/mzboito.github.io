@@ -57,10 +57,6 @@ body.fixed-top-nav {
   padding-top: 56px;
 }
 
-body.sticky-bottom-footer {
-  padding-bottom: 0;
-}
-
 .container {
   max-width: 950px;
 }
@@ -83,8 +79,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6,
 em,
 div,
 span,
@@ -260,13 +254,6 @@ footer.fixed-bottom a:hover {
   text-decoration: none;
 }
 
-footer.sticky-bottom {
-  border-top: 1px solid #e8e8e8;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
-}
-
 .header-bar {
   border-bottom: 1px solid #e8e8e8;
   text-align: center;
@@ -300,19 +287,6 @@ footer.sticky-bottom {
 }
 .post-list li a:hover {
   color: var(--global-theme-color);
-}
-
-.pagination .page-item .page-link {
-  color: var(--global-text-color);
-}
-.pagination .page-item .page-link:hover {
-  color: #000000;
-}
-.pagination .page-item.active .page-link {
-  background-color: var(--global-theme-color);
-}
-.pagination .page-item.active .page-link:hover {
-  background-color: var(--global-theme-color);
 }
 
 .distill a:hover {
@@ -474,42 +448,10 @@ html.transition *:after {
 }
 
 /* Custom override for About page description */
-.page-header .highlight-blue {
-  color: #0076df !important;
-  font-weight: bold !important;
-}
 
 /* project stuff by chat gpt */
-.project-row-small .card {
-  margin: 0; /* remove auto margins */
-  max-width: 100%; /* cards should stretch to col width */
-}
-
-.project-row-small .card-body {
-  padding: 10px; /* smaller padding */
-  font-size: 0.85rem; /* shrink text */
-  line-height: 1.2;
-}
-
-.project-row-small .card-text {
-  font-size: 0.85rem; /* smaller description */
-}
-
-.project-row-small .card-title {
-  font-size: 1rem; /* slightly smaller title */
-  font-weight: 600; /* optional bold */
-  color: #1e90ff; /* default title color */
-  transition: color 0.3s; /* smooth hover effect */
-}
 
 /* Optional: different colors per category */
-#model .card-title {
-  color: #b509ac; /* blue for Models */
-}
-
-#data .card-title {
-  color: var(--global-theme-color); /* green for Datasets */
-}
 
 /* Line below each section */
 .project-category {
@@ -554,41 +496,6 @@ html.transition *:after {
 .resources-page pre code .s {
   color: #5555b6;
 } /* strings in braces */
-.project-flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start; /* left-align, no extra space between */
-  gap: 4px; /* minimal gap between boxes — you can reduce this to 2px or 0px */
-}
-
-.project-flex-item {
-  flex: 0 0 calc(24% - 4px); /* ~22% width instead of 20% */
-  max-width: calc(24% - 4px);
-  margin: 0;
-}
-
-.project-flex-item .card {
-  width: 100%; /* fill the flex item completely */
-  margin: 0; /* remove any leftover margin */
-  box-sizing: border-box;
-}
-
-.project-flex-item .card-body {
-  padding: 4px; /* small padding inside card */
-  font-size: 0.75rem; /* scale down text */
-  line-height: 1.1;
-}
-
-.project-flex-item .card-title {
-  font-size: 0.96rem;
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-}
-
-.project-flex-item .card-text {
-  font-size: 0.7rem;
-  margin-bottom: 0;
-}
 
 /*service page*/
 .activity-list {
@@ -692,5 +599,3 @@ html.transition *:after {
 .timeline-content li a i {
   font-style: italic;
 }
-
-/*# sourceMappingURL=main.css.map */
