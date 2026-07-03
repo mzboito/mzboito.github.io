@@ -2,7 +2,7 @@
 layout: page
 title: MaSS Multilingual Speech-to-Speech Corpus
 description: An aligned speech extension from the CMU dataset
-importance: 3
+importance: 4
 category: data
 related_publications: true
 permalink: /projects/mass/

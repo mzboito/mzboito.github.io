@@ -2,7 +2,7 @@
 layout: page
 title: Tamasheq-French Parallel Corpus
 description: Tamasheq audio from radio broadcasts in Niger, aligned to French text translations
-importance: 2
+importance: 3
 category: data
 related_publications: true
 permalink: /projects/tamasheq/

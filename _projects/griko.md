@@ -2,7 +2,7 @@
 layout: page
 title: Griko-Italian Parallel Speech Corpus
 description: 330 utterances from a true documentation setting
-importance: 5
+importance: 6
 category: data
 related_publications: true
 permalink: /projects/griko/

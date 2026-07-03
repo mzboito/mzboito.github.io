@@ -2,7 +2,7 @@
 layout: page
 title: Niger-Mali Audio Collection
 description: French from Niger, Fulfulde, Hausa, Tamasheq and Zarma
-importance: 1
+importance: 2
 category: data
 related_publications: true
 permalink: /projects/niger-mali/

@@ -2,7 +2,7 @@
 layout: page
 title: Mboshi-French Parallel Speech Corpus
 description: 5,130 utterances from a true documentation setting
-importance: 4
+importance: 5
 category: data
 related_publications: true
 permalink: /projects/mboshi/

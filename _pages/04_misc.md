@@ -10,6 +10,16 @@ description: "Other resources and informations."
   <h3 class="category">Invited Presentations and Panels</h3>
 
   <div class="timeline-item">
+    <div class="year-badge">2026</div>
+    <ul class="timeline-content">
+      <li>
+        08/06 - <b>Invited seminar</b> at ELLIS-Sardine seminar series: 
+        <a href="../assets/pdf/seminars/seminar_2026.pdf"><i>"SpeechMapper: Efficient training of speech LLMs"</i></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="timeline-item">
     <div class="year-badge">2025</div>
     <ul class="timeline-content">
       <li>
@@ -88,6 +98,9 @@ description: "Other resources and informations."
     <li>
       Thomas Palmeira Ferraz - <a href="https://arxiv.org/pdf/2311.01070">Multilingual DistilWhisper</a>
     </li>
+    <li>
+    Kshitij Ambilduke - Bias versus Personalization in Speech LLMs
+    </li>
   </ul>
 
   <p class="subsection-title" style="margin-left: 0.5em"><b>6 months PhD internships:</b></p>
@@ -99,7 +112,7 @@ description: "Other resources and informations."
       Vivek Iyer - <a href="https://arxiv.org/pdf/2406.06371">Benchmarking SSL models: mHuBERT-147 project</a>
     </li>
     <li>Biswesh Mohapatra - <a href="https://arxiv.org/pdf/2601.20417">SpeechMapper: Speech-to-text Embedding Projector for LLMs</a></li>
-    <li>Hemant Yadav - <a href="https://arxiv.org/pdf/2607.01960">SpeechMapper "v2": LLM-free Multimodal projection for LLMs</a>
+    <li>Hemant Yadav - <a href="https://arxiv.org/pdf/2607.01960">SpeechMapper v2: LLM-free Multimodal projection for LLMs</a>
     </li>
   </ul>
 <p class="subsection-title" style="margin-left: 0.5em"><b>PhD Juries:</b></p>
@@ -108,7 +121,7 @@ description: "Other resources and informations."
 <a href="https://theses.fr/2025AVIG0119"><i>Traduction de la parole vers la parole expressive</i></a>, Jarod Duret, Avignon University, 2025
 </li>
 <li>
-<span style="color: #5555b6"><i>Robustness of neural model for automatic speech processing</i></span>, Lucas Maison, Avignon University, 2025
+<a href="https://theses.hal.science/tel-05528699/"><i>Robustness of neural model for automatic speech processing</i></a>, Lucas Maison, Avignon University, 2025
 </li>
   </ul>
 </section>
