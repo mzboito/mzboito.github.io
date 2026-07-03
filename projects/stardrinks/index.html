@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <title>
-  Marcely  Zanon Boito | Misc
+  Marcely  Zanon Boito | StarDrinks Test Set
 </title>
 <meta name="description" content="Marcely Zanon Boito's website.
 " />
@@ -54,7 +54,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico" />
 <link rel="stylesheet" href="/assets/css/main.css" />
 
-<link rel="canonical" href="/misc/" />
+<link rel="canonical" href="/projects/stardrinks/" />
 
 <!-- Theming-->
 
@@ -135,11 +135,9 @@
             </a>
           </li>
             
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/misc/">
               Misc 
-              <span class="sr-only">(current)</span>
-              
             </a>
           </li>
             
@@ -161,129 +159,69 @@
 
     <div class="container mt-5"><div class="post">
   <header class="post-header">
-    <h1 class="post-title">Misc</h1>
-    <p class="post-description">Other resources and informations.</p>
+    <h1 class="post-title">StarDrinks Test Set</h1>
+    <p class="post-description">An English and Korean test set for evaluating LLMs and speech assistants in a drink ordering scenario</p>
   </header>
 
   <article><section class="project-category">
-  <h3 class="category">Invited Presentations and Panels</h3>
-
-  <div class="timeline-item">
-    <div class="year-badge">2026</div>
-    <ul class="timeline-content">
-      <li>
-        08/06 - <b>Invited seminar</b> at ELLIS-Sardine seminar series: 
-        <a href="../assets/pdf/seminars/seminar_2026.pdf"><i>"SpeechMapper: Efficient training of speech LLMs"</i></a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="timeline-item">
-    <div class="year-badge">2025</div>
-    <ul class="timeline-content">
-      <li>
-        05/07 - <b>Invited seminar</b> at FBK-MT group: 
-        <a href="../assets/pdf/seminars/seminar_2025.pdf"><i>"Training Speech LLMs: Insights and Lessons Learned"</i></a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="timeline-item">
-    <div class="year-badge">2024</div>
-    <ul class="timeline-content">
-      <li>
-        05/07 - <b>Invited presentation</b> at HE-UTTER days: 
-        <a href="../assets/pdf/seminars/utter_02.pdf"><i>"mHuBERT-147: A Compact Multilingual HuBERT Model"</i></a>
-      </li>
-      <li>
-        22/10 - <b>Invited seminar</b> at CoML, ENS Paris: 
-        <a href="../assets/pdf/seminars/seminar_coml_2024.pdf"><i>"mHuBERT-147: A Compact and Powerful Speech Foundation Model"</i></a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="timeline-item">
-    <div class="year-badge">2023</div>
-    <ul class="timeline-content">
-      <li>
-        05/07 - <b>Invited presentation</b> at HE-UTTER days: 
-        <a href="../assets/pdf/seminars/utter_01.pdf"><i>"NAVER LABS Europe's Multilingual Speech Translation Systems for the IWSLT 2023 Low-Resource Track"</i></a>
-      </li>
-      <li>
-        15/11 - <b>Invited panelist</b> at Festival'IA 2023, Avignon University: <span style="color: #5555b6"><i>IA et multilinguisme : enjeux et état des lieux.</i></span>
-      </li>
-      <li>
-        07/12 - <b>Invited panelist</b> at <a href="https://rjcp-2023.sciencesconf.org/program">RJCP 2023</a>: <span style="color: #5555b6"><i>Poursuites après le doctorat.</i></span>
-      </li>
-    </ul>
-  </div>
-<div class="timeline-item">
-  <div class="year-badge">2022</div>
-  <ul class="timeline-content">
-    <li>
-      25/06 - <b>Invited panelist</b> at <a href="https://sigul-2022.ilc.cnr.it/programme/">SIGUL 2022</a>: 
-      <span style="color: #5555b6"><i>Towards building technologies for low-resource languages while respecting the sovereignty of the communities.</i></span>
-    </li>
-    <li>
-      24/11 - <b>Invited Seminar</b> at GIPSA-LAB, Grenoble, 
-      <a href="../assets/pdf/seminars/seminar_gipsa_2022.pdf">"A brief (low-resource) speech processing adventure in the realm of self-supervised models."</a>
-    </li>
-  </ul>
-</div>
-
-<div class="timeline-item">
-  <div class="year-badge">2021</div>
-  <ul class="timeline-content">
-    <li>
-      <b>Invited Seminar</b> 
-      <a href="../assets/pdf/seminars/seminar_2021.pdf">"Attention-based Unsupervised Word Segmentation from Speech"</a> at:
-      <ul>
-        <li>07/04 - NAVER LABS Europe</li>
-        <li>24/06 - Sheffield University</li>
-        <li>02/07 - Avignon University</li>
-        <li>30/08 - TALEP, LIS - Marseille</li>
-        <li>29/11 - <a href="https://homepages.inf.ed.ac.uk/htang2/sigml/seminar">ISCA SIGML special group</a></li>
-        <li>14/12 - CoML, ENS Paris</li>
-      </ul>
-    </li>
-  </ul>
-</div>
+  <h2 class="category">About</h2>
+  <p>
+    <strong>StarDrinks</strong> is a test set in <strong>English and Korean</strong> for evaluating LLMs
+    and speech assistants in a realistic <strong>drink ordering</strong> scenario. Task-oriented systems
+    are often assessed under controlled conditions that fail to capture the variability of real user
+    requests: diverse named entities, drink types, sizes, customizations, and brand-specific terminology,
+    as well as spontaneous speech phenomena such as hesitations and self-corrections.
+  </p>
+  <p>
+    The dataset contains speech utterance features, transcriptions, and annotated slots, and supports three
+    evaluation settings: <strong>speech-to-slots</strong> (SLU), <strong>transcription-to-slots</strong> (NLU),
+    and <strong>speech-to-transcription</strong> (ASR). Collected from authentic drink orders, it provides a
+    linguistically rich benchmark for measuring model robustness and generalization to previously unseen
+    named entities.
+  </p>
+</section>
 
 <section class="project-category">
-  <h3 class="category">Students Supervisions and PhD Juries</h3>
-
-  <p class="subsection-title" style="margin-left: 0.5em"><b>6 months master project:</b></p>
+  <h2 class="category">Downloading the data</h2>
   <ul>
     <li>
-      Thomas Palmeira Ferraz - <a href="https://arxiv.org/pdf/2311.01070">Multilingual DistilWhisper</a>
-    </li>
-    <li>
-    Kshitij Ambilduke - Bias versus Personalization in Speech LLMs
-    </li>
-  </ul>
-
-  <p class="subsection-title" style="margin-left: 0.5em"><b>6 months PhD internships:</b></p>
-  <ul>
-    <li>
-      Edward Gow-Smith - <a href="https://aclanthology.org/2023.iwslt-1.10.pdf">Multimodal architecture for low-resource speech translation</a>
-    </li>
-    <li>
-      Vivek Iyer - <a href="https://arxiv.org/pdf/2406.06371">Benchmarking SSL models: mHuBERT-147 project</a>
-    </li>
-    <li>Biswesh Mohapatra - <a href="https://arxiv.org/pdf/2601.20417">SpeechMapper: Speech-to-text Embedding Projector for LLMs</a></li>
-    <li>Hemant Yadav - <a href="https://arxiv.org/pdf/2607.01960">SpeechMapper v2: LLM-free Multimodal projection for LLMs</a>
+      Dataset:
+      <a href="https://europe.naverlabs.com/research/publications/stardrinks-an-english-and-korean-test-set-for-evaluating-llms-in-a-coffee-ordering-deployment-scenario/" target="_blank">
+        NAVER LABS Europe
+      </a>
     </li>
   </ul>
-<p class="subsection-title" style="margin-left: 0.5em"><b>PhD Juries:</b></p>
-  <ul>
-    <li>
-<a href="https://theses.fr/2025AVIG0119"><i>Traduction de la parole vers la parole expressive</i></a>, Jarod Duret, Avignon University, 2025
-</li>
-<li>
-<a href="https://theses.hal.science/tel-05528699/"><i>Robustness of neural model for automatic speech processing</i></a>, Lucas Maison, Avignon University, 2025
-</li>
-  </ul>
+  <p>
+    Access requires agreeing to a custom license: please sign the license agreement available on the
+    dataset page above before downloading.
+  </p>
 </section>
+
+<section class="project-category">
+  <h2 class="category">Citing us</h2>
+  <p>When using our dataset, please cite the following paper:</p>
+
+<div class="resources-page">
+
+<figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">zanon-boito-etal-2026-stardrinks</span><span class="p">,</span>
+    <span class="na">title</span> <span class="p">=</span> <span class="s">"{S}tar{D}rinks: An {E}nglish and {K}orean Test Set for {SLU} Evaluation in a Drink Ordering Scenario"</span><span class="p">,</span>
+    <span class="na">author</span> <span class="p">=</span> <span class="s">"Zanon Boito, Marcely  and
+      Brun, Caroline  and
+      Kim, Inyoung  and
+      Proux, Denys  and
+      Ait-Mokhtar, Salah  and
+      Lagos, Nikolaos  and
+      Meunier, Jean-Luc  and
+      Calapodescu, Ioan"</span><span class="p">,</span>
+    <span class="na">booktitle</span> <span class="p">=</span> <span class="s">"Proceedings of the 2026 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC)"</span><span class="p">,</span>
+    <span class="na">month</span> <span class="p">=</span> <span class="nv">may</span><span class="p">,</span>
+    <span class="na">year</span> <span class="p">=</span> <span class="s">"2026"</span><span class="p">,</span>
+    <span class="na">address</span> <span class="p">=</span> <span class="s">"Palma de Mallorca, Spain"</span><span class="p">,</span>
+    <span class="na">publisher</span> <span class="p">=</span> <span class="s">"European Language Resources Association"</span><span class="p">,</span>
+    <span class="na">url</span> <span class="p">=</span> <span class="s">"https://arxiv.org/abs/2604.26500"</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+
+</div>
 </section>
 </article>
 </div>
