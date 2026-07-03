@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<b>Our team reached again first place in the IWSLT 2026 instruction-following short track, tied to the FBK submission.</b>
+Our team reached again <b>first place in the IWSLT 2026 instruction-following short track,</b> tied to the FBK submission.
