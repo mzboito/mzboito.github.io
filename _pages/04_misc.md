@@ -99,7 +99,8 @@ description: "Other resources and informations."
       Vivek Iyer - <a href="https://arxiv.org/pdf/2406.06371">Benchmarking SSL models: mHuBERT-147 project</a>
     </li>
     <li>Biswesh Mohapatra - <a href="https://arxiv.org/pdf/2601.20417">SpeechMapper: Speech-to-text Embedding Projector for LLMs</a></li>
-    <li>Hemant Yadav - SpeechMapper "v2": LLM-free Multimodal projection for LLMs</li>
+    <li>Hemant Yadav - <a href="https://arxiv.org/pdf/2607.01960">SpeechMapper "v2": LLM-free Multimodal projection for LLMs</a>
+    </li>
   </ul>
 <p class="subsection-title" style="margin-left: 0.5em"><b>PhD Juries:</b></p>
   <ul>
