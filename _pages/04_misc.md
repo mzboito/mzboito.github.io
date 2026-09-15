@@ -123,5 +123,8 @@ description: "Other resources and informations."
 <li>
 <a href="https://theses.hal.science/tel-05528699/"><i>Robustness of neural model for automatic speech processing</i></a>, Lucas Maison, Avignon University, 2025
 </li>
+<li>
+<i><span style="color:#5555B6">Efficient Self-Supervised Learning for Speech Processing</span></i>, Ryan Whetten, Avignon University, 2026
+</li>
   </ul>
 </section>
