@@ -5,19 +5,19 @@
   <div class="col-sm-2 abbr">
     {% if entry.abbr %} {% assign venue = site.data.venues[entry.abbr] %} {% if venue %}
     <abbr class="badge" style="background-color: {{ venue.color }};">
-      <a href="{{ venue.url }}" target="_blank">{{ entry.abbr }}</a>
+      {% if venue.url %}<a href="{{ venue.url }}" target="_blank">{{ entry.abbr }}</a>{% else %}{{ entry.abbr }}{% endif %}
     </abbr>
     {% else %}
     <abbr class="badge">{{ entry.abbr }}</abbr>
     {% endif %} {% endif %} {% if entry.langdoc %} {% assign comment_venue = site.data.venues[entry.langdoc] %} {% if comment_venue %}
     <abbr class="badge langdoc-badge" style="background-color: {{ comment_venue.color }};">
-      <a href="{{ comment_venue.url }}" target="_blank">{{ entry.langdoc }}</a>
+      {% if comment_venue.url %}<a href="{{ comment_venue.url }}" target="_blank">{{ entry.langdoc }}</a>{% else %}{{ entry.langdoc }}{% endif %}
     </abbr>
     {% else %}
     <abbr class="badge langdoc-badge">{{ entry.langdoc }}</abbr>
     {% endif %} {% endif %} {% if entry.comment %} {% assign comment_venue = site.data.venues[entry.comment] %} {% if comment_venue %}
     <abbr class="badge comment-badge" style="background-color: {{ comment_venue.color }};">
-      <a href="{{ comment_venue.url }}" target="_blank">{{ entry.comment }}</a>
+      {% if comment_venue.url %}<a href="{{ comment_venue.url }}" target="_blank">{{ entry.comment }}</a>{% else %}{{ entry.comment }}{% endif %}
     </abbr>
     {% else %}
     <abbr class="badge comment-badge">{{ entry.comment }}</abbr>

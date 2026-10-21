@@ -52,6 +52,10 @@
   color: "#118AB2"
   url: https://impactspeech.github.io/
 
+# pre-print / non-venue markers
+"pre-print":
+  color: "#073B4C"
+
 # local conferences #5555B6
 "CAID":
   color: "#5555B6"
