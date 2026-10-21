@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented an online seminar at ELLIS-Sardine webseminar series <i><span style="color:#5555B6"><a href="../assets/pdf/seminars/seminar_2026.pdf">SpeechMapper: Efficient training of speech LLMs</a></span></i>.
+Presented an online seminar at ELLIS-Sardine webseminar series <i><span style="color: var(--global-theme-color)"><a href="../assets/pdf/seminars/seminar_2026.pdf">SpeechMapper: Efficient training of speech LLMs</a></span></i>.

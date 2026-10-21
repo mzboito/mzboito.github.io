@@ -10,7 +10,7 @@ permalink: /projects/basis-bench-data/
 <section class="project-category">
   <h2 class="category">About</h2>
   <p>
-    We release three data resources with <strong>BASIS-Bench:</strong> Spoken StereoSet+ is an improved stereotypical bias dataset for age and gender stereotypical bias assessment. BASIS-Health/Product are gender personalization datasets. ELIP-Pair is an age personalization dataset. All of these datasets contain synthetic voices only.
+    We release three data resources with <a href="https://mzboito.github.io/basis-bench-webpage/" target="_blank"><strong>BASIS-Bench</strong></a>: <strong>Spoken StereoSet+</strong> is an improved stereotypical bias dataset for age and gender stereotypical bias assessment. <strong>BASIS-Health/Product</strong> are gender personalization datasets. <strong>ELIP-Pair</strong> is an age personalization dataset. All of these datasets contain synthetic voices only.
   </p>
 
 </section>

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Participated in the PhD Thesis jury of Ryan Whetten, titled <i><span style="color:#5555B6">Efficient Self-Supervised Learning for Speech Processing</span></i> and held in Avignon, France.
+Participated in the PhD Thesis jury of Ryan Whetten, titled <i><span style="color: var(--global-theme-color)">Efficient Self-Supervised Learning for Speech Processing</span></i> and held in Avignon, France.

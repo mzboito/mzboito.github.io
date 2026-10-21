@@ -21,6 +21,6 @@ announcements:
 
 <b>Contact: <span style="color:#5555B6; font-weight:bold;">first.last-name at naverlabs dot com</span></b>
 
-<b>Hello!</b> I’m a research scientist in speech processing from Porto Alegre, Brazil, currently at NAVER LABS Europe. I work on <b><span style="color:#5555B6">multimodal dynamic agents for speech and text understanding</span></b>, with research interests in self-supervised speech representation, multilingual, and efficient speech processing, multimodal interaction, and computational language documentation.
+<b>Hello!</b> I’m a research scientist in speech processing from Porto Alegre, Brazil, currently at NAVER LABS Europe. I work on <b><span style="color:#5555B6">multimodal models for speech and text understanding</span></b>, with research interests in self-supervised speech representation, multilingual, and efficient speech processing, multimodal interaction, speech LLMs, low-resource speech processing and computational language documentation.
 
 I earned my PhD in Computer Science from the University Grenoble Alpes (2021), focusing on unsupervised word segmentation for language documentation. I also hold bachelor’s degrees in Computer Science (UFRGS, Brazil) and Information Systems Engineering (ENSIMAG, France), and a Master’s in Artificial Intelligence and the Web (MoSIG, UGA, France).

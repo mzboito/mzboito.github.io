@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Participated in the PhD Thesis jury of Lucas Maison, titled <i><span style="color:#5555B6">Robustness of neural model for automatic speech processing</span></i> and held in Avignon, France.
+Participated in the PhD Thesis jury of Lucas Maison, titled <i><span style="color: var(--global-theme-color)">Robustness of neural model for automatic speech processing</span></i> and held in Avignon, France.

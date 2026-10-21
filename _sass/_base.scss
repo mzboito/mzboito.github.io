@@ -333,13 +333,16 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
       .abbr {
-        height: 2rem;
+        min-height: 2rem;
         margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
+          white-space: normal;
+          text-align: center;
+          line-height: 1.35;
           a {
             color: white;
             &:hover {
