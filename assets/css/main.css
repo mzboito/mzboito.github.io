@@ -367,6 +367,7 @@ footer.fixed-bottom a:hover {
 .publications ol.bibliography li abbr.comment-badge {
   background-color: #f4d35e;
   color: white;
+  margin-top: 0.35rem; /* keep stacked badges from touching the one above */
 }
 .publications ol.bibliography li abbr.comment-badge a {
   color: white;
@@ -377,6 +378,7 @@ footer.fixed-bottom a:hover {
 .publications ol.bibliography li abbr.langdoc-badge {
   background-color: #073b4c;
   color: white;
+  margin-top: 0.35rem; /* keep stacked badges from touching the one above */
 }
 .publications ol.bibliography li abbr.langdoc-badge a {
   color: white;
