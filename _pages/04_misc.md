@@ -51,10 +51,10 @@ description: "Other resources and informations."
         <a href="../assets/pdf/seminars/utter_01.pdf"><i>"NAVER LABS Europe's Multilingual Speech Translation Systems for the IWSLT 2023 Low-Resource Track"</i></a>
       </li>
       <li>
-        15/11 - <b>Invited panelist</b> at Festival'IA 2023, Avignon University: <span style="color: #5555b6"><i>IA et multilinguisme : enjeux et état des lieux.</i></span>
+        15/11 - <b>Invited panelist</b> at Festival'IA 2023, Avignon University: <span style="color: var(--global-theme-color)"><i>IA et multilinguisme : enjeux et état des lieux.</i></span>
       </li>
       <li>
-        07/12 - <b>Invited panelist</b> at <a href="https://rjcp-2023.sciencesconf.org/program">RJCP 2023</a>: <span style="color: #5555b6"><i>Poursuites après le doctorat.</i></span>
+        07/12 - <b>Invited panelist</b> at <a href="https://rjcp-2023.sciencesconf.org/program">RJCP 2023</a>: <span style="color: var(--global-theme-color)"><i>Poursuites après le doctorat.</i></span>
       </li>
     </ul>
   </div>
@@ -63,7 +63,7 @@ description: "Other resources and informations."
   <ul class="timeline-content">
     <li>
       25/06 - <b>Invited panelist</b> at <a href="https://sigul-2022.ilc.cnr.it/programme/">SIGUL 2022</a>: 
-      <span style="color: #5555b6"><i>Towards building technologies for low-resource languages while respecting the sovereignty of the communities.</i></span>
+      <span style="color: var(--global-theme-color)"><i>Towards building technologies for low-resource languages while respecting the sovereignty of the communities.</i></span>
     </li>
     <li>
       24/11 - <b>Invited Seminar</b> at GIPSA-LAB, Grenoble, 
@@ -99,7 +99,7 @@ description: "Other resources and informations."
       Thomas Palmeira Ferraz - <a href="https://arxiv.org/pdf/2311.01070">Multilingual DistilWhisper</a>
     </li>
     <li>
-    Kshitij Ambilduke - Bias versus Personalization in Speech LLMs
+      Kshitij Ambilduke - <a href="https://mzboito.github.io/basis-bench-webpage/">BASIS-Bench</a>
     </li>
   </ul>
 
@@ -124,7 +124,7 @@ description: "Other resources and informations."
 <a href="https://theses.hal.science/tel-05528699/"><i>Robustness of neural model for automatic speech processing</i></a>, Lucas Maison, Avignon University, 2025
 </li>
 <li>
-<i><span style="color:#5555B6">Efficient Self-Supervised Learning for Speech Processing</span></i>, Ryan Whetten, Avignon University, 2026
+<i><span style="color: var(--global-theme-color)">Efficient Self-Supervised Learning for Speech Processing</span></i>, Ryan Whetten, Avignon University, 2026
 </li>
   </ul>
 </section>

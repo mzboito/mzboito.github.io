@@ -48,6 +48,9 @@
   color: "#118AB2"
   url: https://signalprocessingsociety.org/event-names/asru
 
+"IMPACT-Speech (non-archival)":
+  color: "#118AB2"
+
 # local conferences #5555B6
 "CAID":
   color: "#5555B6"

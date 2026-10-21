@@ -32,7 +32,7 @@ horizontal: false
   <ul class="project-list">
     {% for project in sorted_projects %}
       <li class="project-list-item">
-        <a href="{{ project.url | relative_url }}" class="project-link">
+        <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="project-link"{% if project.redirect %} target="_blank"{% endif %}>
           {{ project.title }}
         </a>
       </li>
