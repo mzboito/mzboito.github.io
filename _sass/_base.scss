@@ -358,6 +358,7 @@ footer.sticky-bottom {
       abbr.comment-badge {
         background-color: #f4d35e;
         color: white;
+        margin-top: 0.35rem; /* keep stacked badges from touching the one above */
 
         a {
           color: white;
@@ -369,6 +370,7 @@ footer.sticky-bottom {
       abbr.langdoc-badge {
         background-color: #073b4c;
         color: white;
+        margin-top: 0.35rem; /* keep stacked badges from touching the one above */
 
         a {
           color: white;
