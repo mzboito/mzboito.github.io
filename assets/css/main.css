@@ -602,7 +602,7 @@ html.transition *:after {
 
 .timeline-content li {
   margin-bottom: 0.7em;
-  color: #333;
+  color: var(--global-text-color);
 }
 
 .timeline-content li a i {
