@@ -342,7 +342,7 @@ footer.fixed-bottom a:hover {
   margin-bottom: 1rem;
 }
 .publications ol.bibliography li .abbr {
-  height: 2rem;
+  min-height: 2rem;
   margin-bottom: 0.5rem;
 }
 .publications ol.bibliography li .abbr abbr {
@@ -350,6 +350,9 @@ footer.fixed-bottom a:hover {
   background-color: var(--global-theme-color);
   padding-left: 1rem;
   padding-right: 1rem;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.35;
 }
 .publications ol.bibliography li .abbr abbr a {
   color: white;
